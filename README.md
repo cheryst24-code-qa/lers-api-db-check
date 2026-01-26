@@ -1,5 +1,4 @@
 # LERS API ↔ DB Consistency Validator
-# LERS API ↔ DB Consistency Validator
 
 Автоматизированный скрипт для проверки согласованности данных между REST API системы **ЛЭРС УЧЁТ** и базой данных **MS SQL Server**.
 Проверяет соответствие трёх ключевых сущностей:
