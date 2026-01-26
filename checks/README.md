@@ -103,7 +103,6 @@ git remote add origin https://github.com/ваш-ник/lеrs-api-db-check.git
 git branch -M main
 git push -u origin main
 ```
-
 ## 🖥️ Пример выполнения
 
 ![Успешный запуск скрипта](docs/success-run.png)
