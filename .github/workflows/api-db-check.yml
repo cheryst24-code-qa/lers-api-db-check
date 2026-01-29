@@ -40,11 +40,11 @@ jobs:
           name: html-report
           path: reports/
 
-      - name: Deploy Report to GitHub Pages
-        if: success()
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./reports
-          publish_branch: gh-pages
-          force_orphan: true
+      # - name: Deploy Report to GitHub Pages
+      #   if: success()
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./reports
+      #     publish_branch: gh-pages
+      #     force_orphan: true
