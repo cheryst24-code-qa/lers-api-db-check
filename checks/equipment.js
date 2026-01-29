@@ -1,8 +1,8 @@
 // checks/equipment.js
 const sql = require("mssql");
 
-async function checkEquipment(apiToken, baseUrl) {
-  console.log("📡 Запрос /Core/Equipment...");
+async function checkEquipment(apiToken, baseUrl, log = console.log) {
+  log("\u2713 Запрос /Core/Equipment...");
 
   // Получение данных из API
   const res = await fetch(`${baseUrl}/api/v1/Core/Equipment`, {
@@ -17,25 +17,28 @@ async function checkEquipment(apiToken, baseUrl) {
   if (apiData && Array.isArray(apiData.list)) {
     equipmentList = apiData.list;
   } else {
-    console.warn(
-      '⚠️ Поле "list" отсутствует или не является массивом. Используем пустой список.',
-    );
+    log('\u2757 Поле "list" отсутствует или не является массивом. Используем пустой список.');
   }
 
-  console.log("🗄️ Запрос к dbo.Equipment...");
-  const dbRes = await sql.query(`
-  SELECT
-    Id AS id,
-    SerialNumber AS serialNumber,
-    Comment AS comment,
-    EquipmentModelId AS equipmentModelId
-  FROM dbo.Equipment
-`);
-  const dbData = dbRes.recordset;
+  // === 2. Получение данных из БД или mock ===
+  let dbData;
+  if (process.env.MOCK_DB === 'true') {
+    log('\u2713 MOCK: данные БД из fixtures');
+    dbData = require('../fixtures/db-equipment.json');
+  } else {
+    log("\u2713 Запрос к dbo.Equipment...");
+    const dbRes = await sql.query(`
+      SELECT
+        Id AS id,
+        SerialNumber AS serialNumber,
+        Comment AS comment,
+        EquipmentModelId AS equipmentModelId
+      FROM dbo.Equipment
+    `);
+    dbData = dbRes.recordset;
+  }
 
-  console.log(
-    `🔁 Сравнение: API (${equipmentList.length}) vs DB (${dbData.length})`,
-  );
+  log(`\u2713 Сравнение: API (${equipmentList.length}) vs DB (${dbData.length})`);
 
   // Нормализация
   const normalize = (item) => {
@@ -62,12 +65,12 @@ async function checkEquipment(apiToken, baseUrl) {
     const db = dbMap.get(id);
 
     if (!api) {
-      console.warn(`⚠️  ID=${id} есть в БД, но отсутствует в API`);
+      log(`\u2757 ID=${id} есть в БД, но отсутствует в API`);
       hasMismatch = true;
       continue;
     }
     if (!db) {
-      console.warn(`⚠️  ID=${id} есть в API, но отсутствует в БД`);
+      log(`\u2757 ID=${id} есть в API, но отсутствует в БД`);
       hasMismatch = true;
       continue;
     }
@@ -77,18 +80,16 @@ async function checkEquipment(apiToken, baseUrl) {
       const a = api[f] == null ? null : String(api[f]);
       const d = db[f] == null ? null : String(db[f]);
       if (a !== d) {
-        console.warn(
-          `❌ ID=${id}: поле "${f}" не совпадает. API="${a}", DB="${d}"`,
-        );
+        log(`\u2717 ID=${id}: поле "${f}" не совпадает. API="${a}", DB="${d}"`);
         hasMismatch = true;
       }
     }
   }
 
   if (!hasMismatch) {
-    console.log("✅ Всё оборудование совпадает!");
+    log("\u2713 Всё оборудование совпадает!");
   } else {
-    console.log("❗ Найдены расхождения в оборудовании.");
+    log("\u2757 Найдены расхождения в оборудовании.");
     process.exitCode = 1;
   }
 }

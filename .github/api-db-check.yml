@@ -1,0 +1,52 @@
+name: LERS API <-> DB Consistency Check (MOCK DB)
+
+on:
+  schedule:
+    - cron: "0 8 * * *"  # каждый день в 8:00 UTC (11:00 МСК)
+  push:
+    branches: [ main ]
+  workflow_dispatch:  # запуск вручную из GitHub UI
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run API-DB Consistency Check (MOCK DB)
+        env:
+          # === API (должен быть публичным) ===
+          API_BASE_URL: ${{ secrets.API_BASE_URL }}
+          API_LOGIN: ${{ secrets.API_LOGIN }}
+          API_PASSWORD: ${{ secrets.API_PASSWORD }}
+
+          # === MOCK: БД подменяется фикстурами ===
+          MOCK_DB: "true"
+        run: |
+          mkdir -p reports
+          node index.js
+
+      - name: Upload HTML Report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: html-report
+          path: reports/
+
+      - name: Deploy Report to GitHub Pages
+        if: success()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./reports
+          publish_branch: gh-pages

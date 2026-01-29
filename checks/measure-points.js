@@ -1,8 +1,8 @@
 // checks/measure-points.js
 const sql = require('mssql');
 
-async function checkMeasurePoints(apiToken, baseUrl) {
-  console.log('📡 Запрос /Core/MeasurePoints...');
+async function checkMeasurePoints(apiToken, baseUrl, log = console.log) {
+  log('\u2713 Запрос /Core/MeasurePoints...');
 
   // === 1. Получение данных из API ===
   const res = await fetch(`${baseUrl}/api/v1/Core/MeasurePoints`, {
@@ -18,21 +18,27 @@ async function checkMeasurePoints(apiToken, baseUrl) {
     ? jsonResponse
     : jsonResponse.data || jsonResponse.measurePoints || [];
 
-  // === 2. Запрос к БД ===
-  console.log('🗄️ Запрос к dbo.MeasurePoint...');
-  const pool = await sql.connect(); // используем глобальное подключение
-  const dbResult = await pool.request().query(`
-    SELECT
-      MeasurePoint_ID AS id,
-      MeasurePoint_Title AS title,
-      MeasurePoint_ServiceNumber AS serviceNumber,
-      MeasurePoint_NodeID AS nodeId
-    FROM dbo.MeasurePoint
-  `);
-  const dbData = dbResult.recordset;
-
+  // === 2. Получение данных из БД или mock ===
+  let dbData;
+  if (process.env.MOCK_DB === 'true') {
+    log('\u2713 Режим: МОСК для БД');
+    dbData = require('../fixtures/db-measure-points.json');
+  } else {
+    log('\u2713 Запрос к dbo.MeasurePoint...');
+    const pool = await sql.connect(); // используем глобальное подключение
+    const result = await pool.request().query(`
+      SELECT
+        MeasurePoint_ID AS id,
+        MeasurePoint_Title AS title,
+        MeasurePoint_ServiceNumber AS serviceNumber,
+        MeasurePoint_NodeID AS nodeId
+      FROM dbo.MeasurePoint 
+    `);
+    dbData = result.recordset;  
+  }
+  
   // === 3. Нормализация и сравнение ===
-  console.log(`🔁 Сравнение: API (${apiData.length}) vs DB (${dbData.length})`);
+  log(`\u2713 Сравнение: API (${apiData.length}) vs DB (${dbData.length})`);
 
   const normalize = (item) => ({
     id: item.id,
@@ -52,12 +58,12 @@ async function checkMeasurePoints(apiToken, baseUrl) {
     const db = dbMap.get(id);
 
     if (!api) {
-      console.warn(`⚠️  ID=${id} есть в БД, но отсутствует в API`);
+      log(`\u2757 ID=${id} есть в БД, но отсутствует в API`);
       hasMismatch = true;
       continue;
     }
     if (!db) {
-      console.warn(`⚠️  ID=${id} есть в API, но отсутствует в БД`);
+      log(`\u2757 ID=${id} есть в API, но отсутствует в БД`);
       hasMismatch = true;
       continue;
     }
@@ -72,8 +78,8 @@ async function checkMeasurePoints(apiToken, baseUrl) {
       const dbClean = dbVal == null ? null : String(dbVal);
 
       if (apiClean !== dbClean) {
-        console.warn(
-          `❌ ID=${id}: поле "${field}" не совпадает.\n` +
+        log(
+          `\u2717 ID=${id}: поле "${field}" не совпадает.\n` +
           `   API: "${apiClean}"\n` +
           `   DB:  "${dbClean}"`
         );
@@ -83,9 +89,9 @@ async function checkMeasurePoints(apiToken, baseUrl) {
   }
 
   if (!hasMismatch) {
-    console.log('✅ Все точки учёта совпадают!');
+    log('\u2713 Все точки учёта совпадают!');
   } else {
-    console.log('❗ Найдены расхождения в точках учёта.');
+    log('\u2757 Найдены расхождения в точках учёта.');
     process.exitCode = 1;
   }
 }

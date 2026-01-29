@@ -1,9 +1,9 @@
 // checks/nodes.js
 const sql = require('mssql');
 
-async function checkNodes(apiToken, baseUrl) {
+async function checkNodes(apiToken, baseUrl, log = console.log) {
   // === 1. Получение Nodes из API ===
-  console.log('📡 Запрос /Core/Nodes...');
+  log('\u2713 Запрос /Core/Nodes...');
   const nodesRes = await fetch(`${baseUrl}/api/v1/Core/Nodes`, {
     headers: { Authorization: `Bearer ${apiToken}` },
   });
@@ -16,17 +16,23 @@ async function checkNodes(apiToken, baseUrl) {
     ? jsonResponse
     : jsonResponse.data || jsonResponse.nodes || [];
 
-  // === 2. Запрос к БД ===
-  console.log('🗄️ Запрос к dbo.Node...');
-  const pool = await sql.connect(); // подключение уже настроено глобально
-  const result = await pool.request().query(`
-    SELECT ID, Title AS Name, Comment, Address, TerritoryId
-    FROM dbo.Node
-  `);
-  const dbNodes = result.recordset;
+  // === 2. Получение данных из БД или mock ===
+  let dbData;
+  if (process.env.MOCK_DB === 'true') {
+    log('\u2713 Режим: МОСК для БД');
+    dbData = require('../fixtures/db-nodes.json');
+  } else {
+    log('\u2713 Запрос к db.Node...');
+    const pool = await sql.connect();
+    const result = await pool.request().query(`
+      SELECT ID, Title AS Name, Comment, Address,TerritoryId
+      FROM dbo.Node
+      `);
+    dbData = result.recordset;
+  }
 
   // === 3. Сравнение ===
-  console.log(`🔁 Сравнение: API (${apiNodes.length}) vs DB (${dbNodes.length})`);
+  log(`\u2713 Сравнение: API (${apiNodes.length}) vs DB (${dbData.length})`);
 
   const normalizedApiNodes = apiNodes.map(node => ({
     id: node.id,
@@ -37,7 +43,7 @@ async function checkNodes(apiToken, baseUrl) {
   }));
 
   const apiMap = new Map(normalizedApiNodes.map(n => [n.id, n]));
-  const dbMap = new Map(dbNodes.map(n => [n.ID, n]));
+  const dbMap = new Map(dbData.map(n => [n.ID, n]));
 
   const allIds = new Set([...apiMap.keys(), ...dbMap.keys()]);
   let hasMismatch = false;
@@ -47,12 +53,12 @@ async function checkNodes(apiToken, baseUrl) {
     const db = dbMap.get(id);
 
     if (!api) {
-      console.warn(`⚠️  ID=${id} есть в БД, но отсутствует в API`);
+      log(`\u2757 ID=${id} есть в БД, но отсутствует в API`);
       hasMismatch = true;
       continue;
     }
     if (!db) {
-      console.warn(`⚠️  ID=${id} есть в API, но отсутствует в БД`);
+      log(`\u2757 ID=${id} есть в API, но отсутствует в БД`);
       hasMismatch = true;
       continue;
     }
@@ -68,8 +74,8 @@ async function checkNodes(apiToken, baseUrl) {
       const a = api[f.apiField] == null ? null : String(api[f.apiField]);
       const d = db[f.dbField] == null ? null : String(db[f.dbField]);
       if (a !== d) {
-        console.warn(
-          `❌ ID=${id}: поле "${f.key}" не совпадает.\n` +
+        log(
+          `\u2717 ID=${id}: поле "${f.key}" не совпадает.\n` +
           `   API: "${a}"\n` +
           `   DB:  "${d}"`
         );
@@ -79,9 +85,9 @@ async function checkNodes(apiToken, baseUrl) {
   }
 
   if (!hasMismatch) {
-    console.log('✅ Все данные объектов учета совпадают!');
+    log('\u2713 Все данные объектов учета совпадают!');
   } else {
-    console.log('❗ Найдены расхождения данных в объектах учета.');
+    log('\u2757 Найдены расхождения данных в объектах учета.');
     process.exitCode = 1;
   }
 }

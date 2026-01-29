@@ -1,0 +1,6932 @@
+[
+  {
+    "id": 1,
+    "serialNumber": "86183310",
+    "comment": "снято Ненастина 64",
+    "equipmentModelId": 46
+  },
+  {
+    "id": 15,
+    "serialNumber": "70479",
+    "comment": "Ленина 100",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 25,
+    "serialNumber": "50210209",
+    "comment": "Ленина 100 тепло\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 29,
+    "serialNumber": "5090009",
+    "comment": "Ленина 100 гвс/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 30,
+    "serialNumber": "50208809",
+    "comment": "Ленина 100 тепло/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 31,
+    "serialNumber": "6549909",
+    "comment": "Ненастина 64 гвс/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 32,
+    "serialNumber": "2563110",
+    "comment": "Ненастина 64 гвс\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 34,
+    "serialNumber": "65140511",
+    "comment": "Ненастина 64 тепло\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 36,
+    "serialNumber": "83663412",
+    "comment": "Советская 41",
+    "equipmentModelId": 46
+  },
+  {
+    "id": 44,
+    "serialNumber": "96010",
+    "comment": "Рудакова 20",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 50,
+    "serialNumber": "65451492",
+    "comment": "Сельхозтехника 1",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 52,
+    "serialNumber": "65455253",
+    "comment": "Ленина 131\r\nДавыдова 11",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 53,
+    "serialNumber": "65469239",
+    "comment": "Дзержинского 2",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 54,
+    "serialNumber": "65469437",
+    "comment": "Энгельса 25А",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 55,
+    "serialNumber": "75543311",
+    "comment": "Белинского 7 Замена на ВКТ-7 №101454\r\n",
+    "equipmentModelId": 46
+  },
+  {
+    "id": 57,
+    "serialNumber": "75903311",
+    "comment": "Давыдова 11",
+    "equipmentModelId": 46
+  },
+  {
+    "id": 59,
+    "serialNumber": "95761",
+    "comment": "Энгельса 25А",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 60,
+    "serialNumber": "66425628",
+    "comment": "Давыдова 11\r\nЛенина 92",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 61,
+    "serialNumber": "75913311",
+    "comment": "Ленина 92",
+    "equipmentModelId": 46
+  },
+  {
+    "id": 62,
+    "serialNumber": "75361",
+    "comment": "Герцена 5",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 63,
+    "serialNumber": "75507",
+    "comment": "Герцена 7",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 64,
+    "serialNumber": "104948",
+    "comment": "Суворова 57",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 65,
+    "serialNumber": "75401",
+    "comment": "Ленина 8",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 66,
+    "serialNumber": "104960",
+    "comment": "Крылова 9(2)",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 67,
+    "serialNumber": "77494",
+    "comment": "Крылова 9А",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 68,
+    "serialNumber": "75505",
+    "comment": "Калинина 21",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 69,
+    "serialNumber": "107814",
+    "comment": "Дзержинского 2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 70,
+    "serialNumber": "32025",
+    "comment": "Ленина 47",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 71,
+    "serialNumber": "32195",
+    "comment": "Ненастина 55",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 73,
+    "serialNumber": "00653313",
+    "comment": "Герцена 113\r\nМодель 03п\r\nПерв.проверка 25.12.2013",
+    "equipmentModelId": 46
+  },
+  {
+    "id": 74,
+    "serialNumber": "298294",
+    "comment": "Ленина 138",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 75,
+    "serialNumber": "298312",
+    "comment": "Ленина 140",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 76,
+    "serialNumber": "301708",
+    "comment": "Ленина 142",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 77,
+    "serialNumber": "538",
+    "comment": "Никитина 9",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 78,
+    "serialNumber": "88008",
+    "comment": "Чайковского 2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 79,
+    "serialNumber": "88135",
+    "comment": "Чайковского 2А(1)",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 80,
+    "serialNumber": "63582",
+    "comment": "Переулок 13",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 81,
+    "serialNumber": "75486",
+    "comment": "Советская 129",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 82,
+    "serialNumber": "104117",
+    "comment": "Советская 149",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 83,
+    "serialNumber": "66233303",
+    "comment": "Герцена 111",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 84,
+    "serialNumber": "66232735",
+    "comment": "Герцена 113",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 85,
+    "serialNumber": "57560845",
+    "comment": "Сельхозтехника 11",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 87,
+    "serialNumber": "57564912",
+    "comment": "Сельхозтехника 10\r\nЛенина 47",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 88,
+    "serialNumber": "59706198",
+    "comment": "Герцена 5",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 89,
+    "serialNumber": "57916062",
+    "comment": "Герцена 7",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 90,
+    "serialNumber": "57562304",
+    "comment": "Ленина 8",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 91,
+    "serialNumber": "57559979",
+    "comment": "Калинина 21",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 92,
+    "serialNumber": "57560852",
+    "comment": "Ленина 73\r\nБелинского 7\r\nГоголя 66(2)",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 93,
+    "serialNumber": "57539336",
+    "comment": "Белинского 7+\r\nСуворова 57",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 94,
+    "serialNumber": "59706081",
+    "comment": "Ленина 2",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 95,
+    "serialNumber": "57558351",
+    "comment": "Герцена 84\r\nСоветская 149",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 96,
+    "serialNumber": "57557940",
+    "comment": "Крылова 9(2)",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 97,
+    "serialNumber": "57564797",
+    "comment": "Крылова 9А",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 98,
+    "serialNumber": "57556579",
+    "comment": "Сельхозтехника 9+",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 99,
+    "serialNumber": "57556926",
+    "comment": "Сельхозтехника 8+",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 100,
+    "serialNumber": "57556959",
+    "comment": "13 Переулок 2",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 101,
+    "serialNumber": "57556215",
+    "comment": "Ленина 128",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 102,
+    "serialNumber": "59665915",
+    "comment": "Крылова 9(1) сгорел",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 103,
+    "serialNumber": "57555894",
+    "comment": "Крылова 9(3)",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 104,
+    "serialNumber": "57557510",
+    "comment": "Ленина 126",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 105,
+    "serialNumber": "05023213",
+    "comment": "Герцена 111",
+    "equipmentModelId": 46
+  },
+  {
+    "id": 106,
+    "serialNumber": "104136",
+    "comment": "Крылова 9(1)",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 107,
+    "serialNumber": "104727",
+    "comment": "Крылова 9(3)",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 109,
+    "serialNumber": "86573",
+    "comment": "Чайковского 2А(2)",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 110,
+    "serialNumber": "59706164",
+    "comment": "Сельхозтехника 7",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 111,
+    "serialNumber": "64737",
+    "comment": "Чайковского 7",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 113,
+    "serialNumber": "501292311",
+    "comment": "Дзержинского 2 тепло/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 114,
+    "serialNumber": "501291411",
+    "comment": "Дзержинского 2 тепло\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 115,
+    "serialNumber": "7505276",
+    "comment": "Герцена 111\r\nТепло/",
+    "equipmentModelId": 320
+  },
+  {
+    "id": 118,
+    "serialNumber": "2561711",
+    "comment": "Герцена 111 \r\nГВС\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 121,
+    "serialNumber": "7505166",
+    "comment": "Герцена 113\r\nТепло\\",
+    "equipmentModelId": 320
+  },
+  {
+    "id": 123,
+    "serialNumber": "50939411",
+    "comment": "Герцена 113\r\nГВС/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 124,
+    "serialNumber": "2552511",
+    "comment": "Герцена 113\r\nГВС\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 125,
+    "serialNumber": "50568909",
+    "comment": "Рудакова 20 тепло/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 126,
+    "serialNumber": "50269910",
+    "comment": "Рудакова 20 тепло\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 127,
+    "serialNumber": "40209209",
+    "comment": "Рудакова 20 гвс/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 128,
+    "serialNumber": "40293009",
+    "comment": "Рудакова 20 гвс\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 129,
+    "serialNumber": "65141211",
+    "comment": "Ненастина 64 тепло/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 130,
+    "serialNumber": "802349",
+    "comment": "Ленина 140 тепло/",
+    "equipmentModelId": 320
+  },
+  {
+    "id": 131,
+    "serialNumber": "806443",
+    "comment": "Ленина 140 тепло\\",
+    "equipmentModelId": 320
+  },
+  {
+    "id": 132,
+    "serialNumber": "50362312",
+    "comment": "Ленина 140 гвс/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 133,
+    "serialNumber": "50371612",
+    "comment": "Ленина 140 гвс\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 138,
+    "serialNumber": "50217812",
+    "comment": "Ленина 47 тепло/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 139,
+    "serialNumber": "50217712",
+    "comment": "Ленина 47 тепло\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 140,
+    "serialNumber": "40157611",
+    "comment": "Ленина 47 гвс/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 141,
+    "serialNumber": "40116711",
+    "comment": "Ленина 47 гвс\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 146,
+    "serialNumber": "501179911",
+    "comment": "Давыдова 11 тепло/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 147,
+    "serialNumber": "501184111",
+    "comment": "Давыдова 11 тепло\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 152,
+    "serialNumber": "50217512",
+    "comment": "Ненастина 55 тепло/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 153,
+    "serialNumber": "50217612",
+    "comment": "Ненастина 55 тепло\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 154,
+    "serialNumber": "40150311",
+    "comment": "Ненастина 55 гвс/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 155,
+    "serialNumber": "40154111",
+    "comment": "Ненастина 55 гвс\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 156,
+    "serialNumber": "50505509",
+    "comment": "Советская 41 тепло/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 157,
+    "serialNumber": "50298810",
+    "comment": "Советская 41 тепло\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 158,
+    "serialNumber": "5204",
+    "comment": "Тукая 74",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 159,
+    "serialNumber": "7405134",
+    "comment": "Тукая 74 тепло/",
+    "equipmentModelId": 320
+  },
+  {
+    "id": 160,
+    "serialNumber": "7405149",
+    "comment": "Тукая 74 тепло\\",
+    "equipmentModelId": 320
+  },
+  {
+    "id": 167,
+    "serialNumber": "50213009",
+    "comment": "Ленина 100 гвс\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 168,
+    "serialNumber": "80123908",
+    "comment": "Белинского 7\r\nТепло/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 169,
+    "serialNumber": "8038608",
+    "comment": "Белинского 7\r\nТепло\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 170,
+    "serialNumber": "599886",
+    "comment": "снят Энгельса 25А хвс",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 171,
+    "serialNumber": "40388011",
+    "comment": "Ленина 8 хвс",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 173,
+    "serialNumber": "40262811",
+    "comment": "Герцена 7 хвс",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 175,
+    "serialNumber": "40268411",
+    "comment": "Советская 41 хвс",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 176,
+    "serialNumber": "40296611",
+    "comment": "Ленина 100 хвс",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 178,
+    "serialNumber": "40386211",
+    "comment": "Ленина 140 хвс",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 183,
+    "serialNumber": "40301411",
+    "comment": "Калинина 21",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 185,
+    "serialNumber": "50307312",
+    "comment": "Белинского 7\r\nХВС",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 186,
+    "serialNumber": "26982814",
+    "comment": "Рудакова 20 хвс",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 187,
+    "serialNumber": "26832178",
+    "comment": "Ленина 92 гвс/ заменен\r\nпротечка камеры",
+    "equipmentModelId": 10004
+  },
+  {
+    "id": 188,
+    "serialNumber": "26832179",
+    "comment": "Ленина 92 гвс\\",
+    "equipmentModelId": 10004
+  },
+  {
+    "id": 189,
+    "serialNumber": "40264111",
+    "comment": "Дзержинского 2 хвс",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 190,
+    "serialNumber": "28735892",
+    "comment": "Ненастина 64 хвс",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 191,
+    "serialNumber": "219721",
+    "comment": "Ленина 8 тепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 192,
+    "serialNumber": "219906",
+    "comment": "Ленина 8 тепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 193,
+    "serialNumber": "38140",
+    "comment": "Ленина 8 тепло/",
+    "equipmentModelId": 193
+  },
+  {
+    "id": 194,
+    "serialNumber": "38211",
+    "comment": "Ленина 8 тепло\\",
+    "equipmentModelId": 193
+  },
+  {
+    "id": 195,
+    "serialNumber": "1325882",
+    "comment": "Ленина 8 гвс/",
+    "equipmentModelId": 193
+  },
+  {
+    "id": 196,
+    "serialNumber": "235108",
+    "comment": "Ленина 8 гвс/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 197,
+    "serialNumber": "1325881",
+    "comment": "Ленина 8 гвс\\",
+    "equipmentModelId": 193
+  },
+  {
+    "id": 198,
+    "serialNumber": "235913",
+    "comment": "Ленина 8 гвс\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 199,
+    "serialNumber": "88087",
+    "comment": "Сельхозтехника 1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 200,
+    "serialNumber": "87516",
+    "comment": "Ленина 2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 201,
+    "serialNumber": "1",
+    "comment": "",
+    "equipmentModelId": 198
+  },
+  {
+    "id": 202,
+    "serialNumber": "1",
+    "comment": "Тестовая 1 тепло/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 203,
+    "serialNumber": "3",
+    "comment": "Тестовая 1 хвс",
+    "equipmentModelId": 188
+  },
+  {
+    "id": 204,
+    "serialNumber": "1",
+    "comment": "Тестовая 1 тепло/",
+    "equipmentModelId": 188
+  },
+  {
+    "id": 205,
+    "serialNumber": "2",
+    "comment": "Тестовая 1 тепло\\",
+    "equipmentModelId": 188
+  },
+  {
+    "id": 206,
+    "serialNumber": "2",
+    "comment": "Тестовая 1 тепло\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 207,
+    "serialNumber": "3",
+    "comment": "Тестовая 1 хвс",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 208,
+    "serialNumber": "11",
+    "comment": "",
+    "equipmentModelId": 231
+  },
+  {
+    "id": 216,
+    "serialNumber": "U3154817",
+    "comment": "Герцена 7\r\nГВС/",
+    "equipmentModelId": 10004
+  },
+  {
+    "id": 217,
+    "serialNumber": "D00255",
+    "comment": "Советская 129 хвс",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 218,
+    "serialNumber": "123456789",
+    "comment": "Тестовая 2",
+    "equipmentModelId": 103
+  },
+  {
+    "id": 220,
+    "serialNumber": "1",
+    "comment": "Тестовая 1",
+    "equipmentModelId": 63
+  },
+  {
+    "id": 222,
+    "serialNumber": "101454",
+    "comment": "Белинского 7",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 223,
+    "serialNumber": "2471910",
+    "comment": "Гоголя 66\r\nЗамена с ВКТ-7 №64737,ВКТ-7 №107814!",
+    "equipmentModelId": 179
+  },
+  {
+    "id": 224,
+    "serialNumber": "305199",
+    "comment": "Гоголя 66 тепло/",
+    "equipmentModelId": 231
+  },
+  {
+    "id": 225,
+    "serialNumber": "300400",
+    "comment": "Гоголя 66 тепло\\",
+    "equipmentModelId": 231
+  },
+  {
+    "id": 226,
+    "serialNumber": "6611",
+    "comment": "Гоголя 66 ТП-О-1",
+    "equipmentModelId": 196
+  },
+  {
+    "id": 227,
+    "serialNumber": "6612",
+    "comment": "Гоголя 66 ТП-О-2",
+    "equipmentModelId": 196
+  },
+  {
+    "id": 228,
+    "serialNumber": "6621",
+    "comment": "Гоголя 66 гвс/",
+    "equipmentModelId": 196
+  },
+  {
+    "id": 229,
+    "serialNumber": "34405",
+    "comment": "Гоголя 66 гвс/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 230,
+    "serialNumber": "6622",
+    "comment": "Гоголя 66 гвс\\",
+    "equipmentModelId": 196
+  },
+  {
+    "id": 231,
+    "serialNumber": "80371",
+    "comment": "Гоголя 66 гвс\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 232,
+    "serialNumber": "Д 00265 17",
+    "comment": "Герцена 113\r\nХВС",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 233,
+    "serialNumber": "313436345D378015",
+    "comment": "Гоголя 66",
+    "equipmentModelId": 10009
+  },
+  {
+    "id": 234,
+    "serialNumber": "3134363460375615",
+    "comment": "Ленина 140",
+    "equipmentModelId": 10009
+  },
+  {
+    "id": 236,
+    "serialNumber": "313436345E377315",
+    "comment": "Суворова 57",
+    "equipmentModelId": 10009
+  },
+  {
+    "id": 237,
+    "serialNumber": "D0003517",
+    "comment": "Ленина 92 гвс/",
+    "equipmentModelId": 10004
+  },
+  {
+    "id": 238,
+    "serialNumber": "315805",
+    "comment": "Оршанская 33 тепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 239,
+    "serialNumber": "305225",
+    "comment": "Оршанская 33 тепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 240,
+    "serialNumber": "302689",
+    "comment": "Оршанская 33 гвс/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 241,
+    "serialNumber": "398363",
+    "comment": "Оршанская 33 гвс\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 242,
+    "serialNumber": "10487622",
+    "comment": "Оршанская 33 хвс",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 243,
+    "serialNumber": "104690",
+    "comment": "Оршанская 33",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 248,
+    "serialNumber": "3344",
+    "comment": "Ленина 140 гвс/",
+    "equipmentModelId": 196
+  },
+  {
+    "id": 249,
+    "serialNumber": "3344-2",
+    "comment": "Ленина 140 гвс\\",
+    "equipmentModelId": 196
+  },
+  {
+    "id": 250,
+    "serialNumber": "3343-1",
+    "comment": "Ленина 140 тепло/",
+    "equipmentModelId": 196
+  },
+  {
+    "id": 251,
+    "serialNumber": "3343-2",
+    "comment": "Ленина 140 тепло\\",
+    "equipmentModelId": 196
+  },
+  {
+    "id": 260,
+    "serialNumber": "68020",
+    "comment": "Гафиатуллина 36",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 261,
+    "serialNumber": "75359",
+    "comment": "Сельхозтехника 11",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 262,
+    "serialNumber": "234967",
+    "comment": "Сельхозтехника 11 тепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 263,
+    "serialNumber": "234958",
+    "comment": "Сельхозтехника 11 тепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 264,
+    "serialNumber": "128638",
+    "comment": "Сельхозтехника 9",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 265,
+    "serialNumber": "62741",
+    "comment": "Гафиатуллина 38",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 266,
+    "serialNumber": "128587",
+    "comment": "Сельхозтехника 8",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 267,
+    "serialNumber": "129806",
+    "comment": "Сельхозтехника 7",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 268,
+    "serialNumber": "93808",
+    "comment": "Баумана 1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 269,
+    "serialNumber": "90245",
+    "comment": "Советская 81",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 270,
+    "serialNumber": "125053",
+    "comment": "Гоголя 39",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 271,
+    "serialNumber": "124867",
+    "comment": "Гоголя 41",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 272,
+    "serialNumber": "125122",
+    "comment": "Якупова 49",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 273,
+    "serialNumber": "124805",
+    "comment": "Якупова 47",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 275,
+    "serialNumber": "75410",
+    "comment": "Баумана 16",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 276,
+    "serialNumber": "70029",
+    "comment": "Ленина 66",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 277,
+    "serialNumber": "75517",
+    "comment": "14 Павших 8",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 278,
+    "serialNumber": "75406",
+    "comment": "Советская 131",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 279,
+    "serialNumber": "101480",
+    "comment": "Гафиатуллина 42",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 280,
+    "serialNumber": "104211",
+    "comment": "Гафиатуллина 44",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 281,
+    "serialNumber": "40963311",
+    "comment": "Успенского 42",
+    "equipmentModelId": 46
+  },
+  {
+    "id": 282,
+    "serialNumber": "65468967",
+    "comment": "Успенского 42",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 283,
+    "serialNumber": "125367",
+    "comment": "Якупова 45",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 284,
+    "serialNumber": "05050",
+    "comment": "Чайковского 22",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 285,
+    "serialNumber": "00005555",
+    "comment": "Тестовая 1",
+    "equipmentModelId": 46
+  },
+  {
+    "id": 286,
+    "serialNumber": "1246672",
+    "comment": "Чайковского 7",
+    "equipmentModelId": 69
+  },
+  {
+    "id": 288,
+    "serialNumber": "70066",
+    "comment": "Тукая 73",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 289,
+    "serialNumber": "93889",
+    "comment": "Тукая 75",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 290,
+    "serialNumber": "93803",
+    "comment": "Гоголя 51",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 291,
+    "serialNumber": "101491",
+    "comment": "Герцена 84",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 292,
+    "serialNumber": "97299",
+    "comment": "Ленина 73",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 293,
+    "serialNumber": "70035",
+    "comment": "Джалиля 28-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 294,
+    "serialNumber": "68028",
+    "comment": "Джалиля 28-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 295,
+    "serialNumber": "93878",
+    "comment": "Джалиля 30",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 296,
+    "serialNumber": "97260",
+    "comment": "Горького 14,\r\nзамена с Джалиля 20 ",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 297,
+    "serialNumber": "103883",
+    "comment": "Джалиля 33",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 298,
+    "serialNumber": "70058",
+    "comment": "Гоголя 53",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 300,
+    "serialNumber": "84",
+    "comment": "Советская 84",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 302,
+    "serialNumber": "12234",
+    "comment": "Энгельса 25А/хвс",
+    "equipmentModelId": 10010
+  },
+  {
+    "id": 303,
+    "serialNumber": "262626",
+    "comment": "Комарова 26",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 305,
+    "serialNumber": "68149",
+    "comment": "Комарова 4",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 307,
+    "serialNumber": "81268",
+    "comment": "Комарова 6",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 309,
+    "serialNumber": "93820",
+    "comment": "Джалиля 26",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 310,
+    "serialNumber": "60591",
+    "comment": "Джалиля 24",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 313,
+    "serialNumber": "60643",
+    "comment": "Баумана 2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 315,
+    "serialNumber": "124030",
+    "comment": "Ямашева 8-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 316,
+    "serialNumber": "124939",
+    "comment": "Ямашева 8-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 317,
+    "serialNumber": "70063",
+    "comment": "Ленина 132",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 318,
+    "serialNumber": "03",
+    "comment": "Чайковского 20",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 319,
+    "serialNumber": "97291",
+    "comment": "Оршанская 2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 320,
+    "serialNumber": "99211",
+    "comment": "Оршанская 32",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 321,
+    "serialNumber": "86621",
+    "comment": "Оршанская 30",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 322,
+    "serialNumber": "009",
+    "comment": "Чайковского 6",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 323,
+    "serialNumber": "93843",
+    "comment": "Ленина 94",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 324,
+    "serialNumber": "167581",
+    "comment": "Крылова 10",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 326,
+    "serialNumber": "10",
+    "comment": "Чайковского 12",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 328,
+    "serialNumber": "103920",
+    "comment": "Рудакова 5А",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 329,
+    "serialNumber": "15314",
+    "comment": "",
+    "equipmentModelId": 1
+  },
+  {
+    "id": 330,
+    "serialNumber": "151515",
+    "comment": "test",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 331,
+    "serialNumber": "22",
+    "comment": "Радищева 22",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 332,
+    "serialNumber": "94287",
+    "comment": "Радищева 20",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 333,
+    "serialNumber": "128402",
+    "comment": "Радищего 26",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 334,
+    "serialNumber": "5",
+    "comment": "Чайковского 5",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 335,
+    "serialNumber": "68043",
+    "comment": "Фрунзе 7",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 337,
+    "serialNumber": "129781",
+    "comment": "Горького 1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 338,
+    "serialNumber": "13",
+    "comment": "Горького 13",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 339,
+    "serialNumber": "183064",
+    "comment": "Якупова 58",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 340,
+    "serialNumber": "96688",
+    "comment": "Джалиля 22",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 341,
+    "serialNumber": "403062",
+    "comment": "Якупова 40",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 342,
+    "serialNumber": "3064",
+    "comment": "Чайковского 16",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 343,
+    "serialNumber": "3058",
+    "comment": "Чайковского 18",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 345,
+    "serialNumber": "6",
+    "comment": "Крылова 6",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 346,
+    "serialNumber": "1000",
+    "comment": "Сельхозтехника 10",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 347,
+    "serialNumber": "107698",
+    "comment": "Ленина 131",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 348,
+    "serialNumber": "101433",
+    "comment": "Баумана 12",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 349,
+    "serialNumber": "101384",
+    "comment": "Баумана 14",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 350,
+    "serialNumber": "104080",
+    "comment": "Баумана 18",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 351,
+    "serialNumber": "470",
+    "comment": "Гоголя 47",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 352,
+    "serialNumber": "290",
+    "comment": "Джалиля 29",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 353,
+    "serialNumber": "110",
+    "comment": "Ямашева 11",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 354,
+    "serialNumber": "97370",
+    "comment": "Тукая 66",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 355,
+    "serialNumber": "40",
+    "comment": "Горького 4",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 356,
+    "serialNumber": "14",
+    "comment": "Фрунзе 14",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 357,
+    "serialNumber": "16",
+    "comment": "Фрунзе 16",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 358,
+    "serialNumber": "107839",
+    "comment": "Гафиатуллина 40",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 359,
+    "serialNumber": "104942",
+    "comment": "Советская 82",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 360,
+    "serialNumber": "1400",
+    "comment": "Сломан, не включаетсяГорького 14",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 361,
+    "serialNumber": "14000",
+    "comment": "Каратажная 14",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 362,
+    "serialNumber": "270",
+    "comment": "Джалиля 27",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 363,
+    "serialNumber": "251812",
+    "comment": "Герцена 84\r\nТепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 364,
+    "serialNumber": "262674",
+    "comment": "Герцена 84\r\nТепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 365,
+    "serialNumber": "262514",
+    "comment": "Гоголя 51 тепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 366,
+    "serialNumber": "263217",
+    "comment": "Гоголя 51 тепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 367,
+    "serialNumber": "209942",
+    "comment": "Комарова 6 гвс/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 368,
+    "serialNumber": "216140",
+    "comment": "Комарова гвс\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 369,
+    "serialNumber": "240270",
+    "comment": "Комарова 6 тепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 370,
+    "serialNumber": "238886",
+    "comment": "Комарова 6 тепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 371,
+    "serialNumber": "214096",
+    "comment": "Крылова 9А гвс/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 372,
+    "serialNumber": "211130",
+    "comment": "Крылова 9А гвс\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 373,
+    "serialNumber": "217473",
+    "comment": "Крылоыв 9А тепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 374,
+    "serialNumber": "207143",
+    "comment": "Крылова 9А тепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 375,
+    "serialNumber": "265277",
+    "comment": "Ленина 2 гвс/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 376,
+    "serialNumber": "265018",
+    "comment": "Ленина 2 гвс\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 377,
+    "serialNumber": "269097",
+    "comment": "Ленина 2 тепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 378,
+    "serialNumber": "269099",
+    "comment": "Ленина 2 тепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 379,
+    "serialNumber": "238767",
+    "comment": "Оршанская 30 тепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 380,
+    "serialNumber": "238920",
+    "comment": "Оршанская 30 тепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 381,
+    "serialNumber": "256769",
+    "comment": "Оршанская 2 тепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 382,
+    "serialNumber": "247541",
+    "comment": "Оршансая 2 тепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 383,
+    "serialNumber": "216694",
+    "comment": "Сельхозтехника 1 тепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 384,
+    "serialNumber": "238905",
+    "comment": "Сельхозтехника 1 тепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 385,
+    "serialNumber": "216092",
+    "comment": "Сельхозтехника 11 ГВС /",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 386,
+    "serialNumber": "217581",
+    "comment": "Сельхозтехника 1 гвс\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 387,
+    "serialNumber": "200391",
+    "comment": "Советская 149 гвс/ не прошел поверку",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 388,
+    "serialNumber": "300469",
+    "comment": "Советская 149 гвс\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 389,
+    "serialNumber": "298384",
+    "comment": "Суворова 57 тепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 390,
+    "serialNumber": "302731",
+    "comment": "Суворова 57 тепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 391,
+    "serialNumber": "262859",
+    "comment": "Суворова 57 гвс/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 392,
+    "serialNumber": "293062",
+    "comment": "Суворова 57 гвс\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 393,
+    "serialNumber": "264896",
+    "comment": "Чайковского 2А_2 тепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 394,
+    "serialNumber": "265278",
+    "comment": "Чайковского 2А_2 тепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 395,
+    "serialNumber": "242392",
+    "comment": "Чайковского 2А_1 гвс/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 396,
+    "serialNumber": "216705",
+    "comment": "Чайковского 2А_1 гвс\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 398,
+    "serialNumber": "75350",
+    "comment": "1-й Переулок 6",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 404,
+    "serialNumber": "353656100443557",
+    "comment": "1-й Переулок 6",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 405,
+    "serialNumber": "353656100434895",
+    "comment": "1-й Переулок 8",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 406,
+    "serialNumber": "1002",
+    "comment": "1-й Переулок 8",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 407,
+    "serialNumber": "353656100089665",
+    "comment": "Дзержинского 3",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 408,
+    "serialNumber": "1003",
+    "comment": "Дзержинского 3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 409,
+    "serialNumber": "358021084005861",
+    "comment": "Красноармейская 33",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 410,
+    "serialNumber": "1004",
+    "comment": "Красноармейская 33",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 411,
+    "serialNumber": "353656100567132",
+    "comment": "Красноармейская 51",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 412,
+    "serialNumber": "1005",
+    "comment": "Красноармейская 51",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 413,
+    "serialNumber": "353656100513615",
+    "comment": "Красноармейская 53",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 414,
+    "serialNumber": "1006",
+    "comment": "Красноармейская 53",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 415,
+    "serialNumber": "353656100433491",
+    "comment": "Циолковского 2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 416,
+    "serialNumber": "1007",
+    "comment": "Циолковского 2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 417,
+    "serialNumber": "93821",
+    "comment": "Ленина 130",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 418,
+    "serialNumber": "93818",
+    "comment": "Ленина 126",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 419,
+    "serialNumber": "128",
+    "comment": "Ленина 128",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 420,
+    "serialNumber": "104904",
+    "comment": "Нефтяников 22",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 421,
+    "serialNumber": "1009",
+    "comment": "Нефтяников 42",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 422,
+    "serialNumber": "99408",
+    "comment": "Нефтяников 44",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 423,
+    "serialNumber": "1011",
+    "comment": "Энгельса 33",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 424,
+    "serialNumber": "1012",
+    "comment": "Дзержинского 1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 425,
+    "serialNumber": "68157",
+    "comment": "Джалиля 51",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 426,
+    "serialNumber": "1014",
+    "comment": "Джалиля 53",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 427,
+    "serialNumber": "1015",
+    "comment": "Джалиля 55",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 428,
+    "serialNumber": "1016",
+    "comment": "Лазо 4",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 429,
+    "serialNumber": "1017",
+    "comment": "Воровского 52",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 430,
+    "serialNumber": "1018",
+    "comment": "Комсомольская 7",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 431,
+    "serialNumber": "1019",
+    "comment": "Комсомольская 8",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 432,
+    "serialNumber": "1020-1",
+    "comment": "Комсомольская 10-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 433,
+    "serialNumber": "1020-2",
+    "comment": "Комсомольская 10-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 434,
+    "serialNumber": "1021",
+    "comment": "Воровского 50",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 435,
+    "serialNumber": "1022",
+    "comment": "Красноармейская 29",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 436,
+    "serialNumber": "1023",
+    "comment": "Красноармейская 35",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 437,
+    "serialNumber": "1024",
+    "comment": "Красноармейская 49",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 438,
+    "serialNumber": "1025",
+    "comment": "Циолковского 15",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 439,
+    "serialNumber": "1026",
+    "comment": "Некрасова 17",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 440,
+    "serialNumber": "353656100789033",
+    "comment": "Нефтяников 22",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 441,
+    "serialNumber": "353656100788886",
+    "comment": "Нефтяников 42",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 442,
+    "serialNumber": "353656100761784",
+    "comment": "снято Нефтяников 44",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 443,
+    "serialNumber": "353656100761800",
+    "comment": "Ленина 124",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 444,
+    "serialNumber": "353656100804311",
+    "comment": "Дзержинского 1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 445,
+    "serialNumber": "353656100822875",
+    "comment": "снят Джалиля 51",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 446,
+    "serialNumber": "353656100814427",
+    "comment": "Джалиля 53",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 447,
+    "serialNumber": "353656100804899",
+    "comment": "Джалиля 55",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 448,
+    "serialNumber": "353656100806589",
+    "comment": "Лазо 4",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 449,
+    "serialNumber": "353656100814393",
+    "comment": "Воровского 52",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 450,
+    "serialNumber": "353656100788910",
+    "comment": "Комсомольская 7",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 451,
+    "serialNumber": "353656100762022",
+    "comment": "Комсомольская 8",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 452,
+    "serialNumber": "353656100761511",
+    "comment": "Комсомольская 10-1 Резерв",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 453,
+    "serialNumber": "353656100761875",
+    "comment": "Комсомольская 10-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 454,
+    "serialNumber": "353656100761610",
+    "comment": "Воровского 50",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 455,
+    "serialNumber": "353656100820234",
+    "comment": "Алиша 14-2\r\nКрасноармейская 29",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 456,
+    "serialNumber": "353656100804659",
+    "comment": "Неисправен/Красноармейская 35",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 457,
+    "serialNumber": "353656100819798",
+    "comment": "Красноармейская 49",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 458,
+    "serialNumber": "353656100823071",
+    "comment": "Циолковского 15",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 459,
+    "serialNumber": "353656100822826",
+    "comment": "Некрасова 17 сгорел",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 462,
+    "serialNumber": "122",
+    "comment": "Ленина 122",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 463,
+    "serialNumber": "1240",
+    "comment": "Ленина 124",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 464,
+    "serialNumber": "353656100761859",
+    "comment": "Ленина 122",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 465,
+    "serialNumber": "353656100802455",
+    "comment": "Энгельса 33",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 466,
+    "serialNumber": "1027",
+    "comment": " Есенина 20",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 467,
+    "serialNumber": "1028",
+    "comment": "Гашека 50",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 468,
+    "serialNumber": "1029",
+    "comment": "Джалиля 49",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 469,
+    "serialNumber": "1030",
+    "comment": "Воровского 56",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 470,
+    "serialNumber": "1031",
+    "comment": "Воровского 54",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 471,
+    "serialNumber": "1032",
+    "comment": "Гашека 48",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 472,
+    "serialNumber": "1033",
+    "comment": "Красноармейская 31",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 473,
+    "serialNumber": "70002",
+    "comment": "Ворошилова 13",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 474,
+    "serialNumber": "70020",
+    "comment": "Джалиля 43",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 475,
+    "serialNumber": "1036",
+    "comment": "Джалиля 45",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 476,
+    "serialNumber": "1037",
+    "comment": "Джалиля 47",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 477,
+    "serialNumber": "1038",
+    "comment": "К.Маркса 39",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 478,
+    "serialNumber": "1039",
+    "comment": "Циолковского 4",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 479,
+    "serialNumber": "1040",
+    "comment": "Маркса 30",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 480,
+    "serialNumber": "1041",
+    "comment": "Чернышевского 4",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 481,
+    "serialNumber": "353656100796046",
+    "comment": "Есенина 20",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 482,
+    "serialNumber": "353656100775628",
+    "comment": "Гашека 50",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 483,
+    "serialNumber": "353656100816539",
+    "comment": "Джалиля 49",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 484,
+    "serialNumber": "353656100811068",
+    "comment": "Воровского 56",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 485,
+    "serialNumber": "353656100759960",
+    "comment": "Воровского 54",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 486,
+    "serialNumber": "353656100782004",
+    "comment": "Резерв 5",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 487,
+    "serialNumber": "353656100774548",
+    "comment": "Красноармейская 31",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 488,
+    "serialNumber": "353656100800780",
+    "comment": " снято с Ворошилова 13",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 489,
+    "serialNumber": "353656100803495",
+    "comment": "Джалиля 43",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 490,
+    "serialNumber": "353656100793886",
+    "comment": "Гафиатуллина 32-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 491,
+    "serialNumber": "353656100823311",
+    "comment": "Джалиля 47",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 492,
+    "serialNumber": "353656100800822",
+    "comment": "неисправен К.Маркса 39",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 493,
+    "serialNumber": "353656100800855",
+    "comment": "Циолковского 4",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 494,
+    "serialNumber": "353656100808387",
+    "comment": "Маркса 30",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 495,
+    "serialNumber": "353656100811266",
+    "comment": "Чернышевского 4",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 496,
+    "serialNumber": "287154",
+    "comment": "Ненастина64",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 497,
+    "serialNumber": "93801",
+    "comment": "Ленина 120",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 498,
+    "serialNumber": "353656100514175",
+    "comment": "Ленина 120",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 499,
+    "serialNumber": "353656100801630",
+    "comment": "Ленина 3",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 500,
+    "serialNumber": "353656100761974",
+    "comment": "неисправен Ленина 4-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 501,
+    "serialNumber": "353656100801622",
+    "comment": "Ленина 5-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 502,
+    "serialNumber": "353656100508847",
+    "comment": "Ленина 51",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 503,
+    "serialNumber": "353656100786799",
+    "comment": "Ленина 53",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 505,
+    "serialNumber": "130629",
+    "comment": "Горького 7",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 506,
+    "serialNumber": "104223",
+    "comment": "Ленина 3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 507,
+    "serialNumber": "70007",
+    "comment": "Ленина 4-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 508,
+    "serialNumber": "104401",
+    "comment": "Ленина 5-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 509,
+    "serialNumber": "1045",
+    "comment": "Ленина 51",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 510,
+    "serialNumber": "1046",
+    "comment": "Ленина 53",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 511,
+    "serialNumber": "353656100788985",
+    "comment": "Ленина 55",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 512,
+    "serialNumber": "1047",
+    "comment": "Ленина 55",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 513,
+    "serialNumber": "353656100787813",
+    "comment": "14 Павших 29",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 514,
+    "serialNumber": "1048",
+    "comment": "Гафиатуллина 11",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 515,
+    "serialNumber": "353656100792250",
+    "comment": "Джалиля 60 Резерв 2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 516,
+    "serialNumber": "1049",
+    "comment": "Гафиатуллина 12",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 517,
+    "serialNumber": "353656100789074",
+    "comment": "Гафиатуллина 13",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 518,
+    "serialNumber": "1050",
+    "comment": "Гафиатуллина 13",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 519,
+    "serialNumber": "353656100796186",
+    "comment": "Гафиатуллина 14",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 520,
+    "serialNumber": "1051",
+    "comment": "Гафиатуллина 14",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 521,
+    "serialNumber": "353656100787839",
+    "comment": "Гоголя 71\r\nзамена, не работает\r\nГафиатуллина 11\r\n\r\n",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 522,
+    "serialNumber": "1052",
+    "comment": "Гафиатуллина 15",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 523,
+    "serialNumber": "353656100787763",
+    "comment": "Гафиатуллина 16",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 524,
+    "serialNumber": "1053",
+    "comment": "Гафиатуллина 16",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 525,
+    "serialNumber": "353656100792052",
+    "comment": "Гафиатуллина 17",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 526,
+    "serialNumber": "1054",
+    "comment": "Гафиатуллина 17",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 527,
+    "serialNumber": "353656100761545",
+    "comment": "Гафиатуллина 18",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 528,
+    "serialNumber": "1055",
+    "comment": "Гафиатуллина 18",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 529,
+    "serialNumber": "353656100758632",
+    "comment": "Гафиатуллина 19",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 530,
+    "serialNumber": "1056",
+    "comment": "Гафиатуллина 19",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 531,
+    "serialNumber": "353656100788928",
+    "comment": "Гафиатуллина 20",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 532,
+    "serialNumber": "1057",
+    "comment": "Гафиатуллина 20",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 533,
+    "serialNumber": "1058",
+    "comment": "Гафиатуллина 21",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 534,
+    "serialNumber": "1059",
+    "comment": "Гафиатуллина 22",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 535,
+    "serialNumber": "1060",
+    "comment": "Гафиатуллина 24",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 536,
+    "serialNumber": "1061",
+    "comment": "Гафиатуллина 26",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 537,
+    "serialNumber": "1062",
+    "comment": "Гафиатуллина 28",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 538,
+    "serialNumber": "1123",
+    "comment": "14 Павших 42",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 539,
+    "serialNumber": "1064",
+    "comment": "Гафиатуллина 32 к.2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 540,
+    "serialNumber": "1065",
+    "comment": "Гафиатуллина 9",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 541,
+    "serialNumber": "70026",
+    "comment": "Успенского 69-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 542,
+    "serialNumber": "1067",
+    "comment": "Давыдова 1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 543,
+    "serialNumber": "1068",
+    "comment": "Давыдова 3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 544,
+    "serialNumber": "1069",
+    "comment": "Казанская 10",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 545,
+    "serialNumber": "1070",
+    "comment": "Насырова 1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 546,
+    "serialNumber": "1071",
+    "comment": "Насырова 1 к.А",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 547,
+    "serialNumber": "1072",
+    "comment": "Насырова 2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 548,
+    "serialNumber": "1073",
+    "comment": "Насырова 3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 549,
+    "serialNumber": "1074",
+    "comment": "Насырова 5",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 550,
+    "serialNumber": "1075",
+    "comment": "Красноармейская 1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 551,
+    "serialNumber": "1076",
+    "comment": "Красноармейская 20",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 552,
+    "serialNumber": "68137",
+    "comment": "Красноармейская 22",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 553,
+    "serialNumber": "1078",
+    "comment": "Красноармейская 24",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 554,
+    "serialNumber": "107901",
+    "comment": "Красноармейская 24А-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 555,
+    "serialNumber": "353656100789090",
+    "comment": "Гафиатуллина 21",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 556,
+    "serialNumber": "353656100792060",
+    "comment": "Гафиатуллина 22",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 557,
+    "serialNumber": "353656100788993",
+    "comment": "Гафиатуллина 24",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 558,
+    "serialNumber": "353656100804717",
+    "comment": "Гафиатуллина 26",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 559,
+    "serialNumber": "353656100800533",
+    "comment": "Гафиатуллина 28",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 560,
+    "serialNumber": "353656100792516",
+    "comment": "14 Павших 42",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 561,
+    "serialNumber": "353656100792268",
+    "comment": "Гафиатуллина 32-2 (говорят сломался)",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 562,
+    "serialNumber": "353656100788977",
+    "comment": "Гафиатуллина 9",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 563,
+    "serialNumber": "353656100792474",
+    "comment": "Успенского 69-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 564,
+    "serialNumber": "353656100817131",
+    "comment": "сгорел Ненастина 68 \r\nбыл Энгельса 1А",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 565,
+    "serialNumber": "353656100789173",
+    "comment": "Снят( количество бит не равны)Кольцова 2А",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 566,
+    "serialNumber": "353656100792078",
+    "comment": "Тукая 75 Радищева 38 Казанская 10",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 567,
+    "serialNumber": "353656100796251",
+    "comment": "Насырова 1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 568,
+    "serialNumber": "353656100800400",
+    "comment": "Насырова 1А",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 569,
+    "serialNumber": "353656100801010",
+    "comment": "Насырова 2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 570,
+    "serialNumber": "353656100800947",
+    "comment": "Октябрьская 21\r\nНасырова 3 сломан замена",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 571,
+    "serialNumber": "353656100818501",
+    "comment": "Насырова 5",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 572,
+    "serialNumber": "353656100789181",
+    "comment": "1 Переулок 8",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 573,
+    "serialNumber": "353656100800806",
+    "comment": "Красноармейская 1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 574,
+    "serialNumber": "353656100796756",
+    "comment": "Красноармейская 20",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 575,
+    "serialNumber": "353656100787797",
+    "comment": "Гашека 17-1 ВЗЛЕТ",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 576,
+    "serialNumber": "353656100817875",
+    "comment": "Красноармейская 24",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 577,
+    "serialNumber": "353656100788589",
+    "comment": "Красноармейская 24А-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 578,
+    "serialNumber": "353656100800517",
+    "comment": "Красноармейская 3",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 579,
+    "serialNumber": "1080",
+    "comment": "Красноармейская 3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 580,
+    "serialNumber": "353656100800921",
+    "comment": "Красноармейская 5-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 581,
+    "serialNumber": "108101",
+    "comment": "Красноармейская 5-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 582,
+    "serialNumber": "1082",
+    "comment": "Калинина 30",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 583,
+    "serialNumber": "353656100800491",
+    "comment": "Калинина 30",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 584,
+    "serialNumber": "353656100801036",
+    "comment": "Калинина 32",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 585,
+    "serialNumber": "1083",
+    "comment": "Калинина 32",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 586,
+    "serialNumber": "353656100796087",
+    "comment": "Калинина 34",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 587,
+    "serialNumber": "1084",
+    "comment": "Калинина 34",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 588,
+    "serialNumber": "353656100797457",
+    "comment": "Калинина 36",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 589,
+    "serialNumber": "1085",
+    "comment": "Калинина 36",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 590,
+    "serialNumber": "353656100758996",
+    "comment": "Калинина 37",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 591,
+    "serialNumber": "104952",
+    "comment": "Калинина 37",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 592,
+    "serialNumber": "353656100804485",
+    "comment": "Калинина 38",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 593,
+    "serialNumber": "1087",
+    "comment": "Калинина 38",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 594,
+    "serialNumber": "353656100796707",
+    "comment": "Калинина 40 снят",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 595,
+    "serialNumber": "1088",
+    "comment": "Калинина 40",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 596,
+    "serialNumber": "353656100810839",
+    "comment": "Ворошилова 13\r\nДжалиля 51\r\nГафиатуллина 12",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 598,
+    "serialNumber": "353656100785981",
+    "comment": "Калинина 63",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 599,
+    "serialNumber": "1090",
+    "comment": "Калинина 63",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 600,
+    "serialNumber": "353656100759036",
+    "comment": "14 Павших 23-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 602,
+    "serialNumber": "353656100804105",
+    "comment": "Красноармейская 37",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 603,
+    "serialNumber": "1092",
+    "comment": "Калинина 67",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 604,
+    "serialNumber": "353656100803321",
+    "comment": "Калинина 69",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 605,
+    "serialNumber": "1093",
+    "comment": "Калинина 69",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 606,
+    "serialNumber": "353656100764739",
+    "comment": "Калинина 75",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 607,
+    "serialNumber": "1094",
+    "comment": "Калинина 75",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 608,
+    "serialNumber": "353656100805383",
+    "comment": "Вахитова 11",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 609,
+    "serialNumber": "1095",
+    "comment": "Вахитова 11",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 610,
+    "serialNumber": "353656100800301",
+    "comment": "Вахитова 2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 611,
+    "serialNumber": "1096",
+    "comment": "Вахитова 2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 612,
+    "serialNumber": "353656100804345",
+    "comment": "Вахитова 7",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 613,
+    "serialNumber": "1097",
+    "comment": "Вахитова 7",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 614,
+    "serialNumber": "353656100805441",
+    "comment": "Резерв 100 \r\nВахитова 9",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 616,
+    "serialNumber": "353656100810029",
+    "comment": "Комсомольская 10-1 Д",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 617,
+    "serialNumber": "1099",
+    "comment": "Октябрьская 10",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 618,
+    "serialNumber": "353656100787748",
+    "comment": "Октябрьская 14",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 619,
+    "serialNumber": "1100",
+    "comment": "Октябрьская 14",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 620,
+    "serialNumber": "353656100758517",
+    "comment": "Гашека 17-2 ВЗЛЕТ",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 621,
+    "serialNumber": "1101",
+    "comment": "Октябрьская 18",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 622,
+    "serialNumber": "1102",
+    "comment": "Октябрьская 19",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 623,
+    "serialNumber": "353656100765686",
+    "comment": "Гафиатуллина 11\r\nОктябрьская 19",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 624,
+    "serialNumber": "353656100803768",
+    "comment": "Красноармейская 25-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 625,
+    "serialNumber": "1103",
+    "comment": "Октябрьская 21",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 626,
+    "serialNumber": "353656100800657",
+    "comment": "Октябрьская 23",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 627,
+    "serialNumber": "1104",
+    "comment": "Октябрьская 23",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 628,
+    "serialNumber": "1105",
+    "comment": "Октябрьская 25",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 629,
+    "serialNumber": "353656100773599",
+    "comment": "Октябрьская 25",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 630,
+    "serialNumber": "353656100809872",
+    "comment": "Октябрьская 27",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 631,
+    "serialNumber": "1106",
+    "comment": "Октябрьская 27",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 632,
+    "serialNumber": "1107",
+    "comment": "Октябрьская 8",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 633,
+    "serialNumber": "353656100786732",
+    "comment": "Октябрьская 8",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 634,
+    "serialNumber": "129738",
+    "comment": "Советская 40",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 635,
+    "serialNumber": "353656100765702",
+    "comment": "Советская 40",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 636,
+    "serialNumber": "353656100804188",
+    "comment": "Гашека 48",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 637,
+    "serialNumber": "754490",
+    "comment": "Советская 43",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 638,
+    "serialNumber": "1110",
+    "comment": "Советская 45",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 639,
+    "serialNumber": "353656100765090",
+    "comment": "Советская 45",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 640,
+    "serialNumber": "1111",
+    "comment": "Советская 56",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 641,
+    "serialNumber": "353656100786971",
+    "comment": "Советская 56",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 642,
+    "serialNumber": "353656100798935",
+    "comment": "Советская 58",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 643,
+    "serialNumber": "1112",
+    "comment": "Советская 58",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 644,
+    "serialNumber": "1113",
+    "comment": "Советская 65",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 645,
+    "serialNumber": "353656100787680",
+    "comment": "Советская 65",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 646,
+    "serialNumber": "353656100800228",
+    "comment": "Есенина 18-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 647,
+    "serialNumber": "1114",
+    "comment": "Джалиля 27",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 648,
+    "serialNumber": "149905",
+    "comment": "Гашека 17-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 649,
+    "serialNumber": "353656100800145",
+    "comment": "снят Гашека 17-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 650,
+    "serialNumber": "70025",
+    "comment": "Гашека 17А",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 651,
+    "serialNumber": "353656100811597",
+    "comment": "Гашека 17А",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 652,
+    "serialNumber": "353656100758988",
+    "comment": "Гашека 7 сломан",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 653,
+    "serialNumber": "1117",
+    "comment": "Гашека 7",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 654,
+    "serialNumber": "1118",
+    "comment": "Казанская 1Б",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 655,
+    "serialNumber": "353656100759051",
+    "comment": "Тухачевского 6",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 656,
+    "serialNumber": "358021089030955",
+    "comment": "Казанская 1Б",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 657,
+    "serialNumber": "1119",
+    "comment": "Юбилейная 12",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 658,
+    "serialNumber": "353656100759002",
+    "comment": "Ленина 4-2 заменили на 6517",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 659,
+    "serialNumber": "70027",
+    "comment": "Ленина 4-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 660,
+    "serialNumber": "70023",
+    "comment": "Ленина 5-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 661,
+    "serialNumber": "353656100793100",
+    "comment": "Ленина 5-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 662,
+    "serialNumber": "353656100765694",
+    "comment": "Успенского 69-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 663,
+    "serialNumber": "70051",
+    "comment": "Успенского 69-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 664,
+    "serialNumber": "353656100785932",
+    "comment": "Резерв Красноармейская 24А-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 665,
+    "serialNumber": "107902",
+    "comment": "Красноармейская 24А-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 666,
+    "serialNumber": "353656100785965",
+    "comment": "Красноармейская 5-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 667,
+    "serialNumber": "108102",
+    "comment": "Красноармейская 5-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 668,
+    "serialNumber": "111502",
+    "comment": "Гашека 17-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 669,
+    "serialNumber": "353656100820192",
+    "comment": "Гашека 17-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 671,
+    "serialNumber": "353656100801531",
+    "comment": "Нефтяников 44\r\nРезерв_14 Павших 23-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 672,
+    "serialNumber": "112001",
+    "comment": "14 Павших 23-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 673,
+    "serialNumber": "112002",
+    "comment": "14 Павших 23-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 674,
+    "serialNumber": "112003",
+    "comment": "14 Павших 23-3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 675,
+    "serialNumber": "112004",
+    "comment": "14 Павших 23-4",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 676,
+    "serialNumber": "353656100793068",
+    "comment": "Резерв 1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 677,
+    "serialNumber": "353656100795154",
+    "comment": "14 Павших 23-4",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 678,
+    "serialNumber": "353656100786815",
+    "comment": "Есенина 18-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 679,
+    "serialNumber": "353656100803313",
+    "comment": "14 Павших 24",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 680,
+    "serialNumber": "1121",
+    "comment": "14 Павших 24",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 681,
+    "serialNumber": "1122",
+    "comment": "14 Павших 29",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 682,
+    "serialNumber": "020693",
+    "comment": "Красноармейская 22",
+    "equipmentModelId": 209
+  },
+  {
+    "id": 684,
+    "serialNumber": "97339",
+    "comment": "14 Павших 44",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 685,
+    "serialNumber": "353656106210471",
+    "comment": "14 Павших 44",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 686,
+    "serialNumber": "353656106186630",
+    "comment": "14 Павших 46А",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 687,
+    "serialNumber": "97393",
+    "comment": "14 Павших 46А",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 688,
+    "serialNumber": "353656106161138",
+    "comment": "Красноармейская 25-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 689,
+    "serialNumber": "124582",
+    "comment": "Красноармейская 25-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 690,
+    "serialNumber": "353656106169545",
+    "comment": "14 Павших 69",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 691,
+    "serialNumber": "93830",
+    "comment": "14 Павших 69",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 692,
+    "serialNumber": "353656106170253",
+    "comment": "14 Павших 71",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 693,
+    "serialNumber": "97573",
+    "comment": "14 Павших 71",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 694,
+    "serialNumber": "353656106207873",
+    "comment": "14 Павших 73",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 695,
+    "serialNumber": "107497",
+    "comment": "14 Павших 73",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 696,
+    "serialNumber": "353656105984795",
+    "comment": "14 Павших 75",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 697,
+    "serialNumber": "124882",
+    "comment": "14 Павших 75",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 698,
+    "serialNumber": "353656106186226",
+    "comment": "14 Павших 77",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 699,
+    "serialNumber": "1131",
+    "comment": "14 Павших 77",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 700,
+    "serialNumber": "353656106186333",
+    "comment": "14 Павших 79",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 701,
+    "serialNumber": "75449",
+    "comment": "14 Павших 79",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 702,
+    "serialNumber": "353656106154729",
+    "comment": "Алиша 1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 703,
+    "serialNumber": "123745",
+    "comment": "Алиша 1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 704,
+    "serialNumber": "353656106210182",
+    "comment": "Алиша 14-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 705,
+    "serialNumber": "113401",
+    "comment": "Алиша 14-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 706,
+    "serialNumber": "353656106160940",
+    "comment": "Лазо 7\r\nснят Алиша 14-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 707,
+    "serialNumber": "75451",
+    "comment": "Алиша 14-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 708,
+    "serialNumber": "353656106177811",
+    "comment": "Алиша 16-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 709,
+    "serialNumber": "75485",
+    "comment": "Алиша 16-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 710,
+    "serialNumber": "353656106208467",
+    "comment": "Алиша 16-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 711,
+    "serialNumber": "75376",
+    "comment": "Алиша 16-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 712,
+    "serialNumber": "1248089",
+    "comment": "Калинина 61",
+    "equipmentModelId": 69
+  },
+  {
+    "id": 713,
+    "serialNumber": "1541197",
+    "comment": "Калинина 65",
+    "equipmentModelId": 69
+  },
+  {
+    "id": 715,
+    "serialNumber": "353656106209911",
+    "comment": "Алиша 3",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 716,
+    "serialNumber": "124810",
+    "comment": "Алиша 3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 717,
+    "serialNumber": "353656106193719",
+    "comment": "Алиша 5",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 718,
+    "serialNumber": "124511",
+    "comment": "Алиша 5",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 719,
+    "serialNumber": "353656106160809",
+    "comment": "Ягофарова 35",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 720,
+    "serialNumber": "128652",
+    "comment": "Ягофарова 35",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 721,
+    "serialNumber": "353656106193057",
+    "comment": "Воровского 58",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 722,
+    "serialNumber": "97278",
+    "comment": "Воровского 58",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 723,
+    "serialNumber": "23008609",
+    "comment": "Ленина 126",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 724,
+    "serialNumber": "353656106176755",
+    "comment": "Воровского 60",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 725,
+    "serialNumber": "136922",
+    "comment": "Воровского 60",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 726,
+    "serialNumber": "353656106206974",
+    "comment": "Воровского 62",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 727,
+    "serialNumber": "124807",
+    "comment": "Воровского 62",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 728,
+    "serialNumber": "353656106171293",
+    "comment": "Воровского 64",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 729,
+    "serialNumber": "124798",
+    "comment": "Воровского 64",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 730,
+    "serialNumber": "353656106166038",
+    "comment": "Гафиатуллина 31",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 731,
+    "serialNumber": "89001",
+    "comment": "Гафиатуллина 31",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 732,
+    "serialNumber": "353656106192885",
+    "comment": "Гашека 17-1\r\nДжалиля 41",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 733,
+    "serialNumber": "70558",
+    "comment": "Гафиатуллина 35",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 736,
+    "serialNumber": "353656106194253",
+    "comment": "Гафиатуллина 39",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 737,
+    "serialNumber": "124551",
+    "comment": "Гафиатуллина 39",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 738,
+    "serialNumber": "353656106192844",
+    "comment": "Гафиатуллина 41",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 739,
+    "serialNumber": "123653",
+    "comment": "Гафиатуллина 41",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 740,
+    "serialNumber": "353656106158340",
+    "comment": "Гафиатуллина 43",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 741,
+    "serialNumber": "124548",
+    "comment": "Гафиатуллина 43",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 742,
+    "serialNumber": "353656106202346",
+    "comment": "Гафиатуллина 45",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 743,
+    "serialNumber": "97357",
+    "comment": "Гафиатуллина 45",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 744,
+    "serialNumber": "353656106186671",
+    "comment": "Гафиатуллина 46-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 745,
+    "serialNumber": "88140",
+    "comment": "Гафиатуллина 46-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 746,
+    "serialNumber": "353656106160502",
+    "comment": "Гафиатуллина 46-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 747,
+    "serialNumber": "77525",
+    "comment": "Гафиатуллина 46-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 748,
+    "serialNumber": "353656106207865",
+    "comment": "Гафиатуллина 47",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 749,
+    "serialNumber": "93626",
+    "comment": "Гафиатуллина 47",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 750,
+    "serialNumber": "353656106185046",
+    "comment": "Ворошилова 19",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 751,
+    "serialNumber": "97382",
+    "comment": "Ворошилова 19",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 752,
+    "serialNumber": "353656106164231",
+    "comment": "Ворошилова 20",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 753,
+    "serialNumber": "155401",
+    "comment": "Ворошилова 20",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 754,
+    "serialNumber": "353656106154513",
+    "comment": "Ворошилова 22",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 755,
+    "serialNumber": "96726",
+    "comment": "Ворошилова 22",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 756,
+    "serialNumber": "353656106166467",
+    "comment": "Ворошилова 23",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 757,
+    "serialNumber": "124924",
+    "comment": "Ворошилова 23",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 759,
+    "serialNumber": "353656106019997",
+    "comment": "Ворошилова 25",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 760,
+    "serialNumber": "89055",
+    "comment": "Ворошилова 25",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 761,
+    "serialNumber": "353656106169198",
+    "comment": "Ворошилова 27",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 762,
+    "serialNumber": "104111",
+    "comment": "Ворошилова 27",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 763,
+    "serialNumber": "353656106208715",
+    "comment": "Ворошилова 29",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 764,
+    "serialNumber": "103911",
+    "comment": "Ворошилова 29",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 765,
+    "serialNumber": "353656106206404",
+    "comment": "Клубная 28",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 766,
+    "serialNumber": "1499051",
+    "comment": "Клубная 28",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 767,
+    "serialNumber": "353656106158068",
+    "comment": "Сайдашева 2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 768,
+    "serialNumber": "70061",
+    "comment": "Космонавтов 1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 769,
+    "serialNumber": "353656106176763",
+    "comment": "Космонавтов 2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 770,
+    "serialNumber": "93884",
+    "comment": "Космонавтов 2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 771,
+    "serialNumber": "353656106186374",
+    "comment": "Космонавтов 3",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 772,
+    "serialNumber": "107492",
+    "comment": "Космонавтов 3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 773,
+    "serialNumber": "353656106177639",
+    "comment": "Гоголя 71\r\nРезерв был Космонавтов 4",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 774,
+    "serialNumber": "116790",
+    "comment": "Космонавтов 4",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 775,
+    "serialNumber": "353656106176854",
+    "comment": "снят Космонавтов 5",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 776,
+    "serialNumber": "154569",
+    "comment": "Космонавтов 5",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 777,
+    "serialNumber": "353656106160759",
+    "comment": "неисправный",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 778,
+    "serialNumber": "1165",
+    "comment": "Толстого 1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 779,
+    "serialNumber": "353656106191267",
+    "comment": "Толстого 2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 780,
+    "serialNumber": "150179",
+    "comment": "Толстого 2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 781,
+    "serialNumber": "353656106158407",
+    "comment": "Толстого 3",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 782,
+    "serialNumber": "1167",
+    "comment": "Толстого 3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 783,
+    "serialNumber": "353656106207808",
+    "comment": "Толстого 5",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 784,
+    "serialNumber": "104123",
+    "comment": "Толстого 5",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 785,
+    "serialNumber": "353656106160122",
+    "comment": "Тухачевского 1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 786,
+    "serialNumber": "97410",
+    "comment": "Тухачевского 1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 787,
+    "serialNumber": "353656106196639",
+    "comment": "Тухачевского 10-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 788,
+    "serialNumber": "88101",
+    "comment": "Тухачевского 10-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 789,
+    "serialNumber": "353656106020011",
+    "comment": "Тухачевского 10-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 790,
+    "serialNumber": "87477",
+    "comment": "Тухачевского 10-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 791,
+    "serialNumber": "353656106129606",
+    "comment": "Тухачевского 12",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 792,
+    "serialNumber": "157964",
+    "comment": "Тухачевского 12",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 793,
+    "serialNumber": "353656106201868",
+    "comment": "Баумана 11+",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 794,
+    "serialNumber": "68206",
+    "comment": "Тухачевского 15",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 795,
+    "serialNumber": "353656106175757",
+    "comment": "Якупова 57",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 796,
+    "serialNumber": "1173",
+    "comment": "Тухачевского 15А",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 797,
+    "serialNumber": "353656106161849",
+    "comment": "Тухачевского 3",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 798,
+    "serialNumber": "97253",
+    "comment": "Тухачевского 3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 799,
+    "serialNumber": "353656106187661",
+    "comment": "14 Павших 81",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 800,
+    "serialNumber": "70013",
+    "comment": "Тухачевского 4",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 801,
+    "serialNumber": "353656106168364",
+    "comment": "Тухачевского 4А",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 802,
+    "serialNumber": "93850",
+    "comment": "Тухачевского 4А",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 803,
+    "serialNumber": "353656106184981",
+    "comment": "Чернышевского 2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 804,
+    "serialNumber": "70037",
+    "comment": "Тухачевского 6",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 805,
+    "serialNumber": "353656106193495",
+    "comment": "Джалиля 34",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 806,
+    "serialNumber": "93886",
+    "comment": "Джалиля 34",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 807,
+    "serialNumber": "353656106191747",
+    "comment": "Джалиля 54",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 808,
+    "serialNumber": "1179",
+    "comment": "Джалиля 54",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 809,
+    "serialNumber": "353656106166517",
+    "comment": "Ленина 4-2 \r\nзамена Джалиля 60",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 810,
+    "serialNumber": "1180",
+    "comment": "Джалиля 60",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 811,
+    "serialNumber": "353656106166251",
+    "comment": "Джалиля 62",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 812,
+    "serialNumber": "1181",
+    "comment": "Джалиля 62",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 813,
+    "serialNumber": "353656106166798",
+    "comment": "Баумана 11",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 814,
+    "serialNumber": "1182",
+    "comment": "Баумана 11",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 815,
+    "serialNumber": "353656106210208",
+    "comment": "Сайдашева 1-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 816,
+    "serialNumber": "70014",
+    "comment": "Гоголя 63",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 817,
+    "serialNumber": "353656106169610",
+    "comment": "Гоголя 65",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 818,
+    "serialNumber": "68007",
+    "comment": "Гоголя 65",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 819,
+    "serialNumber": "353656106212816",
+    "comment": "Гоголя 67",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 820,
+    "serialNumber": "100967",
+    "comment": "Гоголя 67",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 821,
+    "serialNumber": "353656106192810",
+    "comment": "??????\r\nЗамена Гоголя 71",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 822,
+    "serialNumber": "107484",
+    "comment": "Гоголя 71",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 823,
+    "serialNumber": "353656106176391",
+    "comment": "Гоголя 73",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 824,
+    "serialNumber": "93847",
+    "comment": "Гоголя 73",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 825,
+    "serialNumber": "353656106160650",
+    "comment": "Сайдашева 1-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 826,
+    "serialNumber": "70045",
+    "comment": "Гоголя 75",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 827,
+    "serialNumber": "353656106166210",
+    "comment": "Оршанская 35А-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 828,
+    "serialNumber": "77495",
+    "comment": "Оршанская 35А-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 830,
+    "serialNumber": "353656106158381",
+    "comment": "Оршанская 35А-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 831,
+    "serialNumber": "88199",
+    "comment": "Оршанская 35А-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 832,
+    "serialNumber": "353656106179510",
+    "comment": "Ненастина 66",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 833,
+    "serialNumber": "989800",
+    "comment": "Ненастина 66",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 834,
+    "serialNumber": "353656106176409",
+    "comment": "Ненастина 68",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 835,
+    "serialNumber": "98980",
+    "comment": "Ненастина 68",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 836,
+    "serialNumber": "353656106191929",
+    "comment": "Сайдашева 11",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 837,
+    "serialNumber": "124786",
+    "comment": "Сайдашева 11",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 838,
+    "serialNumber": "353656106181052",
+    "comment": "Сайдашева 13",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 839,
+    "serialNumber": "124936",
+    "comment": "Сайдашева 13",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 840,
+    "serialNumber": "353656106194378",
+    "comment": "Сайдашева 16",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 841,
+    "serialNumber": "113014",
+    "comment": "Сайдашева 16",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 842,
+    "serialNumber": "353656106131479",
+    "comment": "Резерв Сайдашева 40",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 843,
+    "serialNumber": "1195",
+    "comment": "Сайдашева 40",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 844,
+    "serialNumber": "353656106194212",
+    "comment": "Сайдашева 40А",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 845,
+    "serialNumber": "94253",
+    "comment": "Сайдашева 40А",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 846,
+    "serialNumber": "1208543",
+    "comment": "тестовый",
+    "equipmentModelId": 56
+  },
+  {
+    "id": 847,
+    "serialNumber": "353656106181037",
+    "comment": "Сайдашева 5",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 848,
+    "serialNumber": "124934",
+    "comment": "Сайдашева 5",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 849,
+    "serialNumber": "353656106185970",
+    "comment": "Сайдашева 7",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 850,
+    "serialNumber": "124914",
+    "comment": "Сайдашева 7",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 851,
+    "serialNumber": "353656106191879",
+    "comment": "Сайдашева 9",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 852,
+    "serialNumber": "124866",
+    "comment": "Сайдашева 9",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 853,
+    "serialNumber": "353656106169065",
+    "comment": "Стрелочная 3-1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 854,
+    "serialNumber": "308970",
+    "comment": "Стрелочная 3-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 855,
+    "serialNumber": "353656106166236",
+    "comment": "Стрелочная 3-2",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 856,
+    "serialNumber": "305626",
+    "comment": "Стрелочная 3-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 857,
+    "serialNumber": "353656106169602",
+    "comment": "сгорел Якупова 126",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 858,
+    "serialNumber": "128410",
+    "comment": "Якупова 126",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 859,
+    "serialNumber": "353656106189386",
+    "comment": "Комсомольская 9",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 860,
+    "serialNumber": "70044",
+    "comment": "Якупова 51",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 861,
+    "serialNumber": "353656106169156",
+    "comment": "Якупова 53",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 862,
+    "serialNumber": "124581",
+    "comment": "Якупова 53",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 863,
+    "serialNumber": "353656106196498",
+    "comment": "Гоголя 45\r\nКосмонавтов 4\r\nКосмонавтов 5\r\n\r\n",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 864,
+    "serialNumber": "75455",
+    "comment": "Якупова 55",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 865,
+    "serialNumber": "353656106189626",
+    "comment": "Ненастина 68",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 866,
+    "serialNumber": "75415",
+    "comment": "Якупова 57",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 867,
+    "serialNumber": "353656106210299",
+    "comment": "Якупова 66",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 868,
+    "serialNumber": "124758",
+    "comment": "Якупова 66",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 869,
+    "serialNumber": "353656106165733",
+    "comment": "Якупова 68",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 870,
+    "serialNumber": "93811",
+    "comment": "Якупова 68",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 871,
+    "serialNumber": "353656106185244",
+    "comment": "Луговая 5",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 872,
+    "serialNumber": "70022",
+    "comment": "Луговая 5",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 873,
+    "serialNumber": "353656106187422",
+    "comment": "1 Перейлок 1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 874,
+    "serialNumber": "75471",
+    "comment": "1 Переулок 1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 876,
+    "serialNumber": "1210",
+    "comment": "Кольцова 2А",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 877,
+    "serialNumber": "353656106158910",
+    "comment": "Хмельницкого 10",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 878,
+    "serialNumber": "75459",
+    "comment": "Хмельницкого 10",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 879,
+    "serialNumber": "353656106160767",
+    "comment": "Лазао 3",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 880,
+    "serialNumber": "1212",
+    "comment": "Камала 30",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 881,
+    "serialNumber": "353656106160882",
+    "comment": "снят\r\nЛазо 7",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 882,
+    "serialNumber": "80874",
+    "comment": "Камала 34",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 883,
+    "serialNumber": "353656106196761",
+    "comment": "Губкина 15",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 884,
+    "serialNumber": "93883",
+    "comment": "Губкина 15",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 885,
+    "serialNumber": "353656106172069",
+    "comment": "Пржевальского 17",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 886,
+    "serialNumber": "70563",
+    "comment": "Губкина 17",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 887,
+    "serialNumber": "353656106171822",
+    "comment": "Маркса 16",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 888,
+    "serialNumber": "101367",
+    "comment": "Маркса 16",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 889,
+    "serialNumber": "353656106196720",
+    "comment": "Маркса 18",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 890,
+    "serialNumber": "75357",
+    "comment": "Маркса 18",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 891,
+    "serialNumber": "353656106161161",
+    "comment": "Энгельса 1А",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 893,
+    "serialNumber": "104105",
+    "comment": "Маркса 29",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 894,
+    "serialNumber": "353656106191465",
+    "comment": "Гашека 54",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 895,
+    "serialNumber": "97279",
+    "comment": "Ворошилова 1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 896,
+    "serialNumber": "353656106176870",
+    "comment": "Сайдашева 3",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 897,
+    "serialNumber": "67636",
+    "comment": "Ворошилова 11",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 898,
+    "serialNumber": "714716",
+    "comment": "Гашека 17-1 ВЗЛЭТ",
+    "equipmentModelId": 25
+  },
+  {
+    "id": 901,
+    "serialNumber": "353656106209929",
+    "comment": "Сайдашева 12",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 902,
+    "serialNumber": "93829",
+    "comment": "Ворошилова  17",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 903,
+    "serialNumber": "353656106164678",
+    "comment": "Гоголя 71\r\nКосмонавтов 4 \r\n(5 ТЭМ) замена",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 904,
+    "serialNumber": "70488",
+    "comment": "Ворошилова  3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 906,
+    "serialNumber": "715747",
+    "comment": "Гашека 17-2 ВЗЛЕТ вышел из строя",
+    "equipmentModelId": 25
+  },
+  {
+    "id": 907,
+    "serialNumber": "715574",
+    "comment": "Вахитова 9",
+    "equipmentModelId": 25
+  },
+  {
+    "id": 908,
+    "serialNumber": "353656106193099",
+    "comment": "Джалиля 20",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 909,
+    "serialNumber": "353656106161146",
+    "comment": "РЕЗЕРВ1",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 913,
+    "serialNumber": "020679",
+    "comment": "Радищева 20\r\n",
+    "equipmentModelId": 209
+  },
+  {
+    "id": 920,
+    "serialNumber": "020768",
+    "comment": "100016",
+    "equipmentModelId": 209
+  },
+  {
+    "id": 922,
+    "serialNumber": "020817",
+    "comment": "100018",
+    "equipmentModelId": 209
+  },
+  {
+    "id": 927,
+    "serialNumber": "031502",
+    "comment": "100023",
+    "equipmentModelId": 209
+  },
+  {
+    "id": 929,
+    "serialNumber": "020729",
+    "comment": "100025",
+    "equipmentModelId": 209
+  },
+  {
+    "id": 933,
+    "serialNumber": "714338",
+    "comment": "Баумана 11",
+    "equipmentModelId": 25
+  },
+  {
+    "id": 934,
+    "serialNumber": "124889",
+    "comment": "14 Павших 81",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 936,
+    "serialNumber": "124895",
+    "comment": "Красноармейская 25-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 937,
+    "serialNumber": "68049",
+    "comment": "Красноармейская 37",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 938,
+    "serialNumber": "70543",
+    "comment": "Нефтяников 40",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 940,
+    "serialNumber": "124759",
+    "comment": "Сайдашева 1-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 941,
+    "serialNumber": "107504",
+    "comment": "Сайдашева 2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 942,
+    "serialNumber": "107782",
+    "comment": "Сайдашева 3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 943,
+    "serialNumber": "70507",
+    "comment": "Есенина 18-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 944,
+    "serialNumber": "128629",
+    "comment": "Лазо 3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 945,
+    "serialNumber": "128609",
+    "comment": "Лазо 7",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 946,
+    "serialNumber": "70040",
+    "comment": "Гашека 46",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 947,
+    "serialNumber": "124347",
+    "comment": "Гашека 54",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 948,
+    "serialNumber": "70069",
+    "comment": "Джалиля 41",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 949,
+    "serialNumber": "1248685",
+    "comment": "Космонавтов 5",
+    "equipmentModelId": 69
+  },
+  {
+    "id": 950,
+    "serialNumber": "124989",
+    "comment": "Сайдашева 1-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 951,
+    "serialNumber": "020748",
+    "comment": "Резерв 100029",
+    "equipmentModelId": 209
+  },
+  {
+    "id": 952,
+    "serialNumber": "020680",
+    "comment": "100030",
+    "equipmentModelId": 209
+  },
+  {
+    "id": 955,
+    "serialNumber": "1208",
+    "comment": "Есенина 18-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 956,
+    "serialNumber": "1247",
+    "comment": "Энгельса 31",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 957,
+    "serialNumber": "68006",
+    "comment": "Энгельса 1А",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 958,
+    "serialNumber": "1243",
+    "comment": "Лазо 2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 959,
+    "serialNumber": "70573",
+    "comment": "Сайдашева 12",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 960,
+    "serialNumber": "75404",
+    "comment": "Чернышевского 2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 961,
+    "serialNumber": "101546",
+    "comment": "Пржевальского 17",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 962,
+    "serialNumber": "68216",
+    "comment": "Нефтяников 73",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 964,
+    "serialNumber": "70053",
+    "comment": "Красноармейская 30",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 965,
+    "serialNumber": "75437",
+    "comment": "Красноармейская 28",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 967,
+    "serialNumber": "104543",
+    "comment": "Комсомольская 9",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 968,
+    "serialNumber": "70577",
+    "comment": "Толстого 3\r\nперешло с Ворошилова 9",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 969,
+    "serialNumber": "65027",
+    "comment": "Ворошилова 7",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 970,
+    "serialNumber": "353656106193354",
+    "comment": "Гафиатуллина 35",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 972,
+    "serialNumber": "020674",
+    "comment": "100034",
+    "equipmentModelId": 209
+  },
+  {
+    "id": 974,
+    "serialNumber": "0368370207",
+    "comment": "Лазо 2 ЛОГИКА",
+    "equipmentModelId": 12
+  },
+  {
+    "id": 978,
+    "serialNumber": "020741",
+    "comment": "100038",
+    "equipmentModelId": 209
+  },
+  {
+    "id": 980,
+    "serialNumber": "70573000",
+    "comment": "Баумана 11",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 981,
+    "serialNumber": "13-005800",
+    "comment": "Суворова 70",
+    "equipmentModelId": 103
+  },
+  {
+    "id": 982,
+    "serialNumber": "181818",
+    "comment": "Ворошилова 18",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 983,
+    "serialNumber": "103791",
+    "comment": "Баумана 3",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 984,
+    "serialNumber": "101175",
+    "comment": "Баумана 10",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 985,
+    "serialNumber": "97313",
+    "comment": "Гоголя 45",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 986,
+    "serialNumber": "97261",
+    "comment": "Гоголя 49",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 987,
+    "serialNumber": "555",
+    "comment": "Горького 5",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 988,
+    "serialNumber": "161616",
+    "comment": "Горького 16-1",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 989,
+    "serialNumber": "777",
+    "comment": "Крылова 7",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 990,
+    "serialNumber": "303030",
+    "comment": "Петровская 30",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 991,
+    "serialNumber": "323232",
+    "comment": "Петровская 32",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 992,
+    "serialNumber": "343434",
+    "comment": "Петровская 34",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 993,
+    "serialNumber": "686868",
+    "comment": "Тукая 68",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 994,
+    "serialNumber": "104138",
+    "comment": "Чайковского 1А",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 995,
+    "serialNumber": "1616162",
+    "comment": "Горького 16-2",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 996,
+    "serialNumber": "108177983",
+    "comment": "Баумана 3",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 997,
+    "serialNumber": "108059348",
+    "comment": "Баумана 10",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 998,
+    "serialNumber": "108054026",
+    "comment": "Гоголя 45",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 999,
+    "serialNumber": "108056583",
+    "comment": "Гоголя 49",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1000,
+    "serialNumber": "108181159",
+    "comment": "Никитина 9\r\nГорького 5",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1001,
+    "serialNumber": "108178585",
+    "comment": "Горького 16-1",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1002,
+    "serialNumber": "108059009",
+    "comment": "Горького 16-2",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1003,
+    "serialNumber": "108059322",
+    "comment": "Крылова 7",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1004,
+    "serialNumber": "108058662",
+    "comment": "Ленина д.142",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1005,
+    "serialNumber": "108056666",
+    "comment": "Петровская 32",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1006,
+    "serialNumber": "108059074",
+    "comment": "Петровская 34",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1007,
+    "serialNumber": "108059918",
+    "comment": "Тукая 68",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1008,
+    "serialNumber": "108178049",
+    "comment": "Ленина 138",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1009,
+    "serialNumber": "106322144",
+    "comment": "Ленина 47",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1010,
+    "serialNumber": "108068463",
+    "comment": "Горького 13",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1011,
+    "serialNumber": "108161060",
+    "comment": "Джалиля 29",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1012,
+    "serialNumber": "108180896",
+    "comment": "Ленина д.140",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1013,
+    "serialNumber": "108056716",
+    "comment": "Баумана 12",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1014,
+    "serialNumber": "108049125",
+    "comment": "Баумана 16",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1015,
+    "serialNumber": "108054133",
+    "comment": "Гафиатуллина 44 сгорел",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1016,
+    "serialNumber": "108068125",
+    "comment": "Гоголя 41",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1017,
+    "serialNumber": "108181530",
+    "comment": "Баумана 1",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1018,
+    "serialNumber": "108058654",
+    "comment": "Баумана 14",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1019,
+    "serialNumber": "108178445",
+    "comment": "14 Павших 8",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1020,
+    "serialNumber": "108055783",
+    "comment": "Гоголя 51",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1021,
+    "serialNumber": "108059132",
+    "comment": "Рудакова 20",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1022,
+    "serialNumber": "108180359",
+    "comment": "Никитина д.9 не работаел на объекте\r\n",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1023,
+    "serialNumber": "108059306",
+    "comment": "Гоголя 47",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1024,
+    "serialNumber": "80501360",
+    "comment": "",
+    "equipmentModelId": 181
+  },
+  {
+    "id": 1025,
+    "serialNumber": "80501360",
+    "comment": "",
+    "equipmentModelId": 246
+  },
+  {
+    "id": 1026,
+    "serialNumber": "108178056",
+    "comment": "Фрунзе 7",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1027,
+    "serialNumber": "108059926",
+    "comment": "Чайковского 5",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1028,
+    "serialNumber": "108059108",
+    "comment": "Радищева 38 Тукая 75",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1029,
+    "serialNumber": "108178031",
+    "comment": "Гафиатуллина 42",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1030,
+    "serialNumber": "108058977",
+    "comment": "Чайковского 12",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1031,
+    "serialNumber": "108178205",
+    "comment": "Ямашева 8-1",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1032,
+    "serialNumber": "90670",
+    "comment": "Ворошилова 16",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 1034,
+    "serialNumber": "108064348",
+    "comment": "Джалиля 27",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1035,
+    "serialNumber": "106174594",
+    "comment": "Каратажная 14",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1036,
+    "serialNumber": "106174552",
+    "comment": "Ненастина 64",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1037,
+    "serialNumber": "26982588",
+    "comment": "Баумана 1\r\nхвс",
+    "equipmentModelId": 10011
+  },
+  {
+    "id": 1038,
+    "serialNumber": "263363",
+    "comment": "Баумана 1\r\nТепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1039,
+    "serialNumber": "294635",
+    "comment": "Баумана 1\r\nТепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1041,
+    "serialNumber": "10497547",
+    "comment": "Гафиатуллина 42 хвс",
+    "equipmentModelId": 10012
+  },
+  {
+    "id": 1042,
+    "serialNumber": "108124530",
+    "comment": "Джалиля 30",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1043,
+    "serialNumber": "106173430",
+    "comment": "Гафиатуллина 38",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1044,
+    "serialNumber": "106190244",
+    "comment": "Гафиатуллина 40",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1045,
+    "serialNumber": "108066137",
+    "comment": "Ворошилова 1",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1046,
+    "serialNumber": "106172630",
+    "comment": "Ленина 4-1",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1047,
+    "serialNumber": "106182209",
+    "comment": "Губкина 17",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1048,
+    "serialNumber": "106172895",
+    "comment": "Некрасова 17",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1049,
+    "serialNumber": "106171327",
+    "comment": "Калинина 40",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1050,
+    "serialNumber": "12592",
+    "comment": "Комарова 6",
+    "equipmentModelId": 179
+  },
+  {
+    "id": 1051,
+    "serialNumber": "108068554",
+    "comment": "Чайковского 16",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1052,
+    "serialNumber": "108181043",
+    "comment": "Чайковского 18",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1053,
+    "serialNumber": "106180971",
+    "comment": "Ямашева 11",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1054,
+    "serialNumber": "108065584",
+    "comment": "Ямашева 8-2",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1055,
+    "serialNumber": "108066285",
+    "comment": "Гафиатуллина 44",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1056,
+    "serialNumber": "106181169",
+    "comment": "Ненастина 55",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1057,
+    "serialNumber": "106171970",
+    "comment": "Якупова 40",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1058,
+    "serialNumber": "1111111",
+    "comment": "Циолковского 2 ХВС",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1059,
+    "serialNumber": "14132",
+    "comment": "Комарова 4",
+    "equipmentModelId": 179
+  },
+  {
+    "id": 1060,
+    "serialNumber": "106173489",
+    "comment": "Джалиля 33",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1061,
+    "serialNumber": "106172135",
+    "comment": "Советская 129",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1062,
+    "serialNumber": "106180955",
+    "comment": "Тукая 66",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1064,
+    "serialNumber": "R29203 16",
+    "comment": "Тухачевского 6",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 1067,
+    "serialNumber": "106180955",
+    "comment": "",
+    "equipmentModelId": 116
+  },
+  {
+    "id": 1068,
+    "serialNumber": "111111",
+    "comment": "",
+    "equipmentModelId": 335
+  },
+  {
+    "id": 1069,
+    "serialNumber": "257856",
+    "comment": "",
+    "equipmentModelId": 368
+  },
+  {
+    "id": 1070,
+    "serialNumber": "112166112",
+    "comment": "Ворошилова 7",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1071,
+    "serialNumber": "112174140",
+    "comment": "Толстого 1",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1072,
+    "serialNumber": "112208666",
+    "comment": "Якупова 126 снят",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1073,
+    "serialNumber": "112156444",
+    "comment": "Ворошилова 16",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1074,
+    "serialNumber": "112174041",
+    "comment": "Резерв5 (демонтаж)",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1075,
+    "serialNumber": "201132870",
+    "comment": "Ворошилова 16-",
+    "equipmentModelId": 103
+  },
+  {
+    "id": 1077,
+    "serialNumber": "55555555",
+    "comment": "",
+    "equipmentModelId": 27
+  },
+  {
+    "id": 1078,
+    "serialNumber": "4444444",
+    "comment": "",
+    "equipmentModelId": 9
+  },
+  {
+    "id": 1079,
+    "serialNumber": "777777",
+    "comment": "",
+    "equipmentModelId": 116
+  },
+  {
+    "id": 1080,
+    "serialNumber": "20-113287",
+    "comment": "Вороршилова 16",
+    "equipmentModelId": 521
+  },
+  {
+    "id": 1082,
+    "serialNumber": "4",
+    "comment": "Казанская 4Б",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 1084,
+    "serialNumber": "1200",
+    "comment": "Оршанская 12",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 1086,
+    "serialNumber": "2",
+    "comment": "Сельхозтехника 2А",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 1088,
+    "serialNumber": "197966",
+    "comment": "Тукая 70",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 1089,
+    "serialNumber": "112166666",
+    "comment": "Джалиля 26",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1090,
+    "serialNumber": "112164000",
+    "comment": "Оршанская 30",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1091,
+    "serialNumber": "112166815",
+    "comment": "Оршанская 32",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1092,
+    "serialNumber": "112152344",
+    "comment": "Оршанская 33",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1093,
+    "serialNumber": "112172425",
+    "comment": "Советская 149",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1094,
+    "serialNumber": "112135307",
+    "comment": "Якупова 49",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1095,
+    "serialNumber": "112172524",
+    "comment": "Суворова 57",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1096,
+    "serialNumber": "112164190",
+    "comment": "Горького 14",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1097,
+    "serialNumber": "112134888",
+    "comment": "Чайковского 2А-2",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1098,
+    "serialNumber": "112167318",
+    "comment": "Алиша 2",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1099,
+    "serialNumber": "20-112147",
+    "comment": "Алиша 2",
+    "equipmentModelId": 521
+  },
+  {
+    "id": 1100,
+    "serialNumber": "112212213",
+    "comment": "Маркса 39",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1101,
+    "serialNumber": "112213039",
+    "comment": "Октябрьская 21",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1102,
+    "serialNumber": "112207825",
+    "comment": "Красноармейская 35",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1103,
+    "serialNumber": "112164372",
+    "comment": "Октябрьская 18",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1104,
+    "serialNumber": "112212395",
+    "comment": "Гоголя 63",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1105,
+    "serialNumber": "111425253",
+    "comment": "Баумана 2",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1106,
+    "serialNumber": "112173241",
+    "comment": "Горького 1",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1107,
+    "serialNumber": "111425139",
+    "comment": "Чайковского 6",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1108,
+    "serialNumber": "112213062",
+    "comment": "\r\n",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1109,
+    "serialNumber": "112211140",
+    "comment": "Радищева 40",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1110,
+    "serialNumber": "112212163",
+    "comment": "Сельхозтехника 16",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1111,
+    "serialNumber": "11111",
+    "comment": "Радищева 40",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 1113,
+    "serialNumber": "270016",
+    "comment": "Крулова 9-1 ГВС /",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1114,
+    "serialNumber": "235166",
+    "comment": "Сельхозтехника 11 ГВС \\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1115,
+    "serialNumber": "Е0023521",
+    "comment": "Тухачевского 3",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 1116,
+    "serialNumber": "121212",
+    "comment": "Радищева 12",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 1117,
+    "serialNumber": "109914608",
+    "comment": "Крылова 6",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1118,
+    "serialNumber": "109896151",
+    "comment": "Крылова 9-1",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1119,
+    "serialNumber": "ххххххх",
+    "comment": "Гашека 17-2 ГВС",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 1120,
+    "serialNumber": "38",
+    "comment": "Радищева 38",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 1121,
+    "serialNumber": "117519372",
+    "comment": "Гоголя 53",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1122,
+    "serialNumber": "20-110659",
+    "comment": "Сайдашева 10",
+    "equipmentModelId": 521
+  },
+  {
+    "id": 1123,
+    "serialNumber": "118270348",
+    "comment": "Сайдашева 10",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1124,
+    "serialNumber": "77389",
+    "comment": "Джалиля 20",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 1125,
+    "serialNumber": "458218054",
+    "comment": "Ленина д.131",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1126,
+    "serialNumber": "459347936",
+    "comment": "Гафиатуллина 36",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1127,
+    "serialNumber": "Т1409032",
+    "comment": "Гоголя 38-1",
+    "equipmentModelId": 88
+  },
+  {
+    "id": 1128,
+    "serialNumber": "Т1409030",
+    "comment": "Гоголя 38-2",
+    "equipmentModelId": 88
+  },
+  {
+    "id": 1129,
+    "serialNumber": "Т1409032",
+    "comment": "Гоголя 38",
+    "equipmentModelId": 139
+  },
+  {
+    "id": 1130,
+    "serialNumber": "459238010",
+    "comment": "Кольцова 2А\r\nЖК_резерв",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1131,
+    "serialNumber": "459190047",
+    "comment": "ЖК_резерв",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1132,
+    "serialNumber": "458723129",
+    "comment": "Гашека 7",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1133,
+    "serialNumber": "459770335",
+    "comment": "Насырова 3",
+    "equipmentModelId": 221
+  },
+  {
+    "id": 1134,
+    "serialNumber": "50282308",
+    "comment": "13 Переулок 2",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 1135,
+    "serialNumber": "А 02301-18",
+    "comment": "13 Переулок 2",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 1136,
+    "serialNumber": "235920",
+    "comment": "14 Павших 8 \r\nГВС/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1137,
+    "serialNumber": "235900",
+    "comment": "14 павших 8\r\nГВС\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1138,
+    "serialNumber": "392084",
+    "comment": "14 Павших 8\r\nХВС",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1139,
+    "serialNumber": "502048",
+    "comment": "Баумана 2\r\nТепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1140,
+    "serialNumber": "502813",
+    "comment": "Баумана 2\r\nТепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1141,
+    "serialNumber": "А 02225 18",
+    "comment": "Баумана 2",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 1142,
+    "serialNumber": "299616",
+    "comment": "Баумана 3\r\nТепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1143,
+    "serialNumber": "264707",
+    "comment": "Баумана 3\r\nТепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1144,
+    "serialNumber": "23008535",
+    "comment": "Баумана 3",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 1145,
+    "serialNumber": "300475",
+    "comment": "Баумана 10\r\nТепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1146,
+    "serialNumber": "302726",
+    "comment": "Баумана 10",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1147,
+    "serialNumber": "Е 0023621",
+    "comment": "Баумана 10",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 1148,
+    "serialNumber": "262677",
+    "comment": "Баумана 12\r\nТепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1149,
+    "serialNumber": "263031",
+    "comment": "Баумана 12\r\nТепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1150,
+    "serialNumber": "А 02837  18",
+    "comment": "Баумана 12",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 1151,
+    "serialNumber": "268665",
+    "comment": "Баумана 14\r\nОтопление/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1152,
+    "serialNumber": "272276",
+    "comment": "Баумана 14\r\nТепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1153,
+    "serialNumber": "10487668",
+    "comment": "Баумана 14",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 1154,
+    "serialNumber": "75010454",
+    "comment": "Баумана 16\r\nТепло/",
+    "equipmentModelId": 320
+  },
+  {
+    "id": 1155,
+    "serialNumber": "73210982",
+    "comment": "Баумана 16\r\nГВС/",
+    "equipmentModelId": 320
+  },
+  {
+    "id": 1156,
+    "serialNumber": "73210973",
+    "comment": "Баумана 16\r\nГВС\\",
+    "equipmentModelId": 320
+  },
+  {
+    "id": 1157,
+    "serialNumber": "406424",
+    "comment": "Баумана 16\r\nХВС",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1158,
+    "serialNumber": "272055",
+    "comment": "Баумана 18\r\nТепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1159,
+    "serialNumber": "294615",
+    "comment": "Баумана 16\r\nТепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1160,
+    "serialNumber": "299247",
+    "comment": "Баумана 18\r\nГВС/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1161,
+    "serialNumber": "305454",
+    "comment": "Баумана 18\r\nГВС\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1162,
+    "serialNumber": "5064409",
+    "comment": "Гафиатуллина 36\r\nТепло/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 1163,
+    "serialNumber": "50121409",
+    "comment": "Гафиатуллина 36\r\nТепло\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 1164,
+    "serialNumber": "32242608",
+    "comment": "Гафиатуллина 36\r\nХВС",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 1165,
+    "serialNumber": "50121509",
+    "comment": "Гафиатуллина 38\r\nТепло/",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 1166,
+    "serialNumber": "5057309",
+    "comment": "Гафиатуллина 38\r\nТепло\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 1167,
+    "serialNumber": "32245108",
+    "comment": "Гафиатуллина 38\r\nХВС",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 1168,
+    "serialNumber": "235362",
+    "comment": "Герцена 5\r\nТепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1169,
+    "serialNumber": "232273",
+    "comment": "Герцена 5\r\nТепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1170,
+    "serialNumber": "232239",
+    "comment": "Герцена 5\r\nГВС/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1171,
+    "serialNumber": "232263",
+    "comment": "Герцена 5\r\nГВС\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1172,
+    "serialNumber": "12227",
+    "comment": "Герцена 5\r\nХВС",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 1173,
+    "serialNumber": "235951",
+    "comment": "Герцена 7\r\nТепло/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1174,
+    "serialNumber": "235957",
+    "comment": "Герцена 7\r\nТепло\\",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1176,
+    "serialNumber": "U31549 17",
+    "comment": "Герцена 7\r\nГВС\\",
+    "equipmentModelId": 10004
+  },
+  {
+    "id": 1177,
+    "serialNumber": "402628   11",
+    "comment": "Герцена 7\r\nХВС",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 1178,
+    "serialNumber": "А01438  18",
+    "comment": "Герцена 84\r\nХВС",
+    "equipmentModelId": 10004
+  },
+  {
+    "id": 1179,
+    "serialNumber": "7505181",
+    "comment": "Герцена 111\r\nТепло\\",
+    "equipmentModelId": 324
+  },
+  {
+    "id": 1180,
+    "serialNumber": "50918311",
+    "comment": "Герцена 111\r\nГВС/",
+    "equipmentModelId": 112
+  },
+  {
+    "id": 1181,
+    "serialNumber": "А0233818",
+    "comment": "Герцена 111\r\nХВС",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 1182,
+    "serialNumber": "1909054",
+    "comment": "Герцена 111А\r\nТепло/",
+    "equipmentModelId": 617
+  },
+  {
+    "id": 1183,
+    "serialNumber": "1915209",
+    "comment": "Герцена 111А",
+    "equipmentModelId": 617
+  },
+  {
+    "id": 1184,
+    "serialNumber": "309301437",
+    "comment": "Герцена 111А\r\nГВС/",
+    "equipmentModelId": 10004
+  },
+  {
+    "id": 1185,
+    "serialNumber": "65766930",
+    "comment": "Герцена 111А\r\nГВС\\",
+    "equipmentModelId": 10004
+  },
+  {
+    "id": 1186,
+    "serialNumber": "309301436",
+    "comment": "Герцена 111А\r\nХВС",
+    "equipmentModelId": 10002
+  },
+  {
+    "id": 1188,
+    "serialNumber": "20-117363",
+    "comment": "Комсомольская 12",
+    "equipmentModelId": 521
+  },
+  {
+    "id": 1189,
+    "serialNumber": "130058001",
+    "comment": "Тестовый",
+    "equipmentModelId": 103
+  },
+  {
+    "id": 1190,
+    "serialNumber": "7878878",
+    "comment": "Советская 41",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 1191,
+    "serialNumber": "87968575",
+    "comment": "test",
+    "equipmentModelId": 116
+  },
+  {
+    "id": 1193,
+    "serialNumber": "353656106161146",
+    "comment": "TEST",
+    "equipmentModelId": 222
+  },
+  {
+    "id": 1194,
+    "serialNumber": "353656100803313",
+    "comment": "14Павших 24",
+    "equipmentModelId": 222
+  },
+  {
+    "id": 1195,
+    "serialNumber": "861551048756175",
+    "comment": "Баумана 12",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1197,
+    "serialNumber": "861551048561500",
+    "comment": "Баумана 14",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1198,
+    "serialNumber": "861551048659114",
+    "comment": "Баумана 16",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1199,
+    "serialNumber": "861551048657951",
+    "comment": "Баумана 18",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1200,
+    "serialNumber": "861551048757736",
+    "comment": "Гафиатуллина 44",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1201,
+    "serialNumber": "865006040302995",
+    "comment": "Гафиатуллина 42",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1202,
+    "serialNumber": "861551048769459",
+    "comment": "Гафиатуллина 40",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1203,
+    "serialNumber": "861551048757850",
+    "comment": "Гафиатуллина 38",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1204,
+    "serialNumber": "865006040366263",
+    "comment": "Гафиатуллина 36",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1205,
+    "serialNumber": "865006040364995",
+    "comment": "Джалиля 26",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1206,
+    "serialNumber": "865006040403454",
+    "comment": "Джалиля 24",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1207,
+    "serialNumber": "865006040364664",
+    "comment": "Гоголя 41",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1208,
+    "serialNumber": "861551048659130",
+    "comment": "14 Павших 8",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1209,
+    "serialNumber": "861551048931679",
+    "comment": "Рудакова 20",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1210,
+    "serialNumber": "861551049006877",
+    "comment": "Якупова 45",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1211,
+    "serialNumber": "861551048659015",
+    "comment": "Баумана 1",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1212,
+    "serialNumber": "861551048770002",
+    "comment": "Баумана 3",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1213,
+    "serialNumber": "865006040445646",
+    "comment": "Баумана 2",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1214,
+    "serialNumber": "861551048758205",
+    "comment": "Гоголя 39",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1215,
+    "serialNumber": "861551048570055",
+    "comment": "Баумана 10",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1216,
+    "serialNumber": "861551048758189",
+    "comment": "Советская 129",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1217,
+    "serialNumber": "861551048770705",
+    "comment": "Советская 131",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1218,
+    "serialNumber": "861551048757868",
+    "comment": "Ненастина 55",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1219,
+    "serialNumber": "861551043349315",
+    "comment": "Ленина 47",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1220,
+    "serialNumber": "861551048571541",
+    "comment": "Советская 84",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1221,
+    "serialNumber": "861551048758213",
+    "comment": "Советская 81",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1222,
+    "serialNumber": "861551049011240",
+    "comment": "Ямашева 8-1",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1223,
+    "serialNumber": "861551043347459",
+    "comment": "Ямашева 8-2",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1224,
+    "serialNumber": "868960065949857",
+    "comment": "Ленина 8",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1225,
+    "serialNumber": "868960065960342",
+    "comment": "Калинина 21",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1226,
+    "serialNumber": "868960065959872",
+    "comment": "Герцена 7",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1227,
+    "serialNumber": "868960065931178",
+    "comment": "Горького 7",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1228,
+    "serialNumber": "868960065919140",
+    "comment": "Ленина 2",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1229,
+    "serialNumber": "868960065689560",
+    "comment": "13 Переулок 2",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1230,
+    "serialNumber": "868960065982742",
+    "comment": "Белинского 7",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1231,
+    "serialNumber": "868960065949832",
+    "comment": "Тукая 68",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1232,
+    "serialNumber": "868960065959765",
+    "comment": "Тукая 66",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1233,
+    "serialNumber": "868960065982999",
+    "comment": "Якупова 47",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1234,
+    "serialNumber": "868960065964807",
+    "comment": "Якупова 49",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1235,
+    "serialNumber": "868960065918928",
+    "comment": "Дзержинского 2",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1236,
+    "serialNumber": "868960065982288",
+    "comment": "Крылоаа 9-1",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1237,
+    "serialNumber": "868960065918738",
+    "comment": "Крылова 9-2",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1238,
+    "serialNumber": "868960065982692",
+    "comment": "снят Крылова 9-3",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1239,
+    "serialNumber": "868960065982783",
+    "comment": "Горького 13",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1240,
+    "serialNumber": "868960065733236",
+    "comment": "Горького 1",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1241,
+    "serialNumber": "868960065960201",
+    "comment": "Горького 4",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1242,
+    "serialNumber": "868960065918589",
+    "comment": "Оршанская 33",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1243,
+    "serialNumber": "868960065965051",
+    "comment": "Советская 149",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1244,
+    "serialNumber": "868960065982353",
+    "comment": "Ленина 100",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1245,
+    "serialNumber": "868960065959773",
+    "comment": "Герцена 113\r\n65918977\r\n",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1246,
+    "serialNumber": "868960065982403",
+    "comment": "Ленина 94",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1247,
+    "serialNumber": "868960065959724",
+    "comment": "Крылова 9А",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1248,
+    "serialNumber": "861551048595862",
+    "comment": "Чайковского 5",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1249,
+    "serialNumber": "861551048770788",
+    "comment": "Чайковского 12",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1250,
+    "serialNumber": "868960065982130",
+    "comment": "Чайковского 16",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1251,
+    "serialNumber": "861551048768352",
+    "comment": "Чайковского 20",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1252,
+    "serialNumber": "861551048571459",
+    "comment": "Чайковского 22",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1253,
+    "serialNumber": "861551048757934",
+    "comment": "Фрунзе 16",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1254,
+    "serialNumber": "868960065918662",
+    "comment": "Фрунзе 14",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1255,
+    "serialNumber": "861551043347558",
+    "comment": "Крылова 6",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1256,
+    "serialNumber": "861551048573810",
+    "comment": "Оршанская 2",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1257,
+    "serialNumber": "861551049008113",
+    "comment": "Радищева 20",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1258,
+    "serialNumber": "861551048758890",
+    "comment": "Чайковского 6",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1259,
+    "serialNumber": "861551048598171",
+    "comment": "Сельхозтехника 1",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1260,
+    "serialNumber": "861551048571665",
+    "comment": "Сельхозтехника 2А",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1261,
+    "serialNumber": "868960065981959",
+    "comment": "Сельхозтехника 7",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1262,
+    "serialNumber": "868960065935039",
+    "comment": "Сельхозтехника 8",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1263,
+    "serialNumber": "865006040365000",
+    "comment": "Сельхозтехника 9",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1264,
+    "serialNumber": "861551048758163",
+    "comment": "Сельхохтехника 16",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1265,
+    "serialNumber": "865006040364854",
+    "comment": "Сельхозтехника 11",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1266,
+    "serialNumber": "861551048758924",
+    "comment": "Сельхозтехника 10",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1267,
+    "serialNumber": "868960065982502",
+    "comment": "Комарова 26",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1268,
+    "serialNumber": "861551049008022",
+    "comment": "Комарова 4",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1269,
+    "serialNumber": "861551049007859",
+    "comment": "Фрунзе 7",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1270,
+    "serialNumber": "868960065981975",
+    "comment": "Крылова 10",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1271,
+    "serialNumber": "868960065982510",
+    "comment": "Гоголя 53",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1272,
+    "serialNumber": "868960065918985",
+    "comment": "Ленина 122",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1273,
+    "serialNumber": "868960065935054",
+    "comment": "Ленина 92",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1274,
+    "serialNumber": "868960065982544",
+    "comment": "Ленина 73",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1275,
+    "serialNumber": "868960065960532",
+    "comment": "Советская 41",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1276,
+    "serialNumber": "868960065982635",
+    "comment": "Ленина 128",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1277,
+    "serialNumber": "868960065948834",
+    "comment": "Ленина 130",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1278,
+    "serialNumber": "868960065919306",
+    "comment": "Ленина 132",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1279,
+    "serialNumber": "868960065949816",
+    "comment": "Радищева 38",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1280,
+    "serialNumber": "868960065934719",
+    "comment": "Радищева 40",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1281,
+    "serialNumber": "868960065918639",
+    "comment": "Каратажная 14",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1282,
+    "serialNumber": "868960065935401",
+    "comment": "Петровская 34",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1283,
+    "serialNumber": "868960065982700",
+    "comment": "Чайковского 2а-1",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1284,
+    "serialNumber": "868960065919116",
+    "comment": "Чайковского 1А",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1285,
+    "serialNumber": "868960065930915",
+    "comment": "Крылова 7",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1286,
+    "serialNumber": "868960065918795",
+    "comment": "Радищева 22 ",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1287,
+    "serialNumber": "868960065918530",
+    "comment": "Радищева 26",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1288,
+    "serialNumber": "868960065948677",
+    "comment": "Оршанская 30",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1289,
+    "serialNumber": "868960065948958",
+    "comment": "Оршанская 32",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1290,
+    "serialNumber": "868960065960334",
+    "comment": "Суворова 57",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1291,
+    "serialNumber": "868960065982619",
+    "comment": "Тукая 73",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1292,
+    "serialNumber": "868960065689719",
+    "comment": "Тукая 74",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1293,
+    "serialNumber": "868960065959567",
+    "comment": "Якупова 58",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1294,
+    "serialNumber": "868960065919058",
+    "comment": "Якупова 40 ",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1295,
+    "serialNumber": "868960065981827",
+    "comment": "Ленина 66",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1296,
+    "serialNumber": "868960065948644",
+    "comment": "Герцена 84",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1297,
+    "serialNumber": "868960065935120",
+    "comment": "Петровская 30",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1298,
+    "serialNumber": "868960065982767",
+    "comment": "Ленина 126",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1299,
+    "serialNumber": "868960065919165",
+    "comment": "Герцена 111А",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1300,
+    "serialNumber": "868960065981686",
+    "comment": "Джалиля 27",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1301,
+    "serialNumber": "868960065964914",
+    "comment": "Советская 82",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1302,
+    "serialNumber": "868960065982221",
+    "comment": "Ямашева 11",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1303,
+    "serialNumber": "868960065920643",
+    "comment": "Петровская 32",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1304,
+    "serialNumber": "868960065918969",
+    "comment": "Герцена 111",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1305,
+    "serialNumber": "868960065926780",
+    "comment": "Успенского 42",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1306,
+    "serialNumber": "868960065982734",
+    "comment": "Джалиля 22 сняли не работал со 2-м сервером",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1307,
+    "serialNumber": "868960065982239",
+    "comment": "Джалиля 28-1",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1308,
+    "serialNumber": "868960065733020",
+    "comment": "Джалиля 29",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1309,
+    "serialNumber": "868960065935021",
+    "comment": "Чайковского 2А-2",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1310,
+    "serialNumber": "868960065732899",
+    "comment": "Чайковского 18",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1311,
+    "serialNumber": "868960065960029",
+    "comment": "Чайковского 2",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1312,
+    "serialNumber": "868960065959898",
+    "comment": "Горького 14",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1313,
+    "serialNumber": "868960065982411",
+    "comment": "Джалиля 30",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1314,
+    "serialNumber": "868960065982668",
+    "comment": "Гоголя 49",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1315,
+    "serialNumber": "868960065934842",
+    "comment": "Гоголя 45",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1316,
+    "serialNumber": "868960065934990",
+    "comment": "Гоголя 47",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1317,
+    "serialNumber": "868960065959732",
+    "comment": "Гоголя 51",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1318,
+    "serialNumber": "868960065935005",
+    "comment": "Казанская 4б",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1319,
+    "serialNumber": "868960065960824",
+    "comment": "Тукая 70",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1321,
+    "serialNumber": "868960065934859",
+    "comment": "Джалиля 22",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1322,
+    "serialNumber": "868960065948651",
+    "comment": "Джалиля 33",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1323,
+    "serialNumber": "00068028",
+    "comment": "Успенского 42",
+    "equipmentModelId": 29
+  },
+  {
+    "id": 1324,
+    "serialNumber": "868960065935583",
+    "comment": "Герцена 5",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1325,
+    "serialNumber": "868960065982866",
+    "comment": "Крылова 6",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1326,
+    "serialNumber": "868960065918910",
+    "comment": "Герцена 7",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1327,
+    "serialNumber": "868345037226602",
+    "comment": "Оршанская 30",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1328,
+    "serialNumber": "868960065931210",
+    "comment": "Радищева 20",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1329,
+    "serialNumber": "868960065934685",
+    "comment": "Джалиля 29",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1330,
+    "serialNumber": "868960065982379",
+    "comment": "Красноармейская 29",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1331,
+    "serialNumber": "868960065982791",
+    "comment": "Якупова 55",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1332,
+    "serialNumber": "868960065948487",
+    "comment": "Гафиатуллина 12",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1333,
+    "serialNumber": "868960065918654",
+    "comment": "Ненастина 64.",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1334,
+    "serialNumber": "868960065918720",
+    "comment": "Крылова 9-3",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1336,
+    "serialNumber": "24719",
+    "comment": "Никитина 9",
+    "equipmentModelId": 179
+  },
+  {
+    "id": 1337,
+    "serialNumber": "353656100803487",
+    "comment": "Никитина 9\r\nГорького 7",
+    "equipmentModelId": 447
+  },
+  {
+    "id": 1338,
+    "serialNumber": "868960065982858",
+    "comment": "Космонавтов 5",
+    "equipmentModelId": 514
+  },
+  {
+    "id": 1339,
+    "serialNumber": "70017",
+    "comment": "Октябрьская 21",
+    "equipmentModelId": 29
+  }
+]
