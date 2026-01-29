@@ -1,8 +1,8 @@
-name: LERS API <-> DB Consistency Check (MOCK DB)
+name: LERS API ↔ DB Consistency Check (MOCK DB)
 
 on:
   schedule:
-    - cron: "0 11 * * *"  # каждый день в 8:00 UTC (11:00 МСК)
+    - cron: "0 8 * * *"  # каждый день в 8:00 UTC (11:00 МСК)
   push:
     branches: [ main ]
   workflow_dispatch:  # запуск вручную из GitHub UI
@@ -14,8 +14,6 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}  # ← добавь эту строку
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -27,12 +25,9 @@ jobs:
 
       - name: Run API-DB Consistency Check (MOCK DB)
         env:
-          # === API (должен быть публичным) ===
           API_BASE_URL: ${{ secrets.API_BASE_URL }}
           API_LOGIN: ${{ secrets.API_LOGIN }}
           API_PASSWORD: ${{ secrets.API_PASSWORD }}
-
-          # === MOCK: БД подменяется фикстурами ===
           MOCK_DB: "true"
         run: |
           mkdir -p reports
