@@ -52,11 +52,11 @@ jobs:
           RUN_TESTS_OUTCOME: ${{ steps.run_tests.outcome }}
         run: |
           if [ "$RUN_TESTS_OUTCOME" = "success" ]; then
-            MESSAGE="U+2705 Тесты LERS-API-DB прошли успешно!"
+            MESSAGE="\U2705 Тесты LERS-API-DB прошли успешно!"
           else
             RUN_URL="https://github.com/${GITHUB_REPO}/actions/runs/${GITHUB_RUN_ID}"
             STATUS="${RUN_TESTS_OUTCOME:-неизвестно}"
-            MESSAGE="U+274C Тесты LERS-API-DB упали (статус: $STATUS)!%0AПодробности: $RUN_URL"
+            MESSAGE="\U274C Тесты LERS-API-DB упали (статус: $STATUS)!%0AПодробности: $RUN_URL"
           fi
 
           curl -s -X POST \
