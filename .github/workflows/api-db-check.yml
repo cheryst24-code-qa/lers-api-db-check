@@ -2,7 +2,7 @@ name: LERS API ↔ DB Consistency Check (MOCK DB)
 
 on:
   schedule:
-    - cron: "0 6 * * *" # каждый день в 8:00 UTC (11:00 МСК)
+    - cron: "0 7 * * *" # каждый день в 7:00 UTC (10:00 МСК)
   push:
     branches: [main]
   workflow_dispatch: # запуск вручную из GitHub UI
@@ -52,11 +52,11 @@ jobs:
         run: |
           # Определяем статус на основе исхода шага run_tests
           if [ "${{ steps.run_tests.outcome }}" = "success" ]; then
-            MESSAGE="✅ Тесты HiTE PRO прошли успешно!"
+            MESSAGE="✅ Тесты LERS-API-DB прошли успешно!"
           else
             RUN_URL="https://github.com/${GITHUB_REPO}/actions/runs/${GITHUB_RUN_ID}"
             STATUS="${{ steps.run_tests.outcome}}"
-            MESSAGE="❌ Тесты HiTE PRO упали (статус: ${STATUS:-неизвестно})!\\nПодробности: $RUN_URL"
+            MESSAGE="❌ Тесты LERS-API-DB (статус: ${STATUS:-неизвестно})!\\nПодробности: $RUN_URL"
           fi
 
           curl -s -X POST \
