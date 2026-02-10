@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>LERS SERVER API — Документация</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      color-scheme: light dark;
+      --bg: #ffffff;
+      --fg: #222222;
+      --muted: #666666;
+      --accent: #1f7ae0;
+      --border: #dddddd;
+      --code-bg: #f5f5f5;
+      --code-border: #e0e0e0;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #111827;
+        --fg: #e5e7eb;
+        --muted: #9ca3af;
+        --accent: #60a5fa;
+        --border: #374151;
+        --code-bg: #111827;
+        --code-border: #374151;
+      }
+    }
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        sans-serif;
+      background: var(--bg);
+      color: var(--fg);
+      line-height: 1.6;
+    }
+    .page {
+      display: grid;
+      grid-template-columns: minmax(0, 260px) minmax(0, 1fr);
+      min-height: 100vh;
+    }
+    @media (max-width: 960px) {
+      .page {
+        grid-template-columns: minmax(0, 1fr);
+      }
+      .sidebar {
+        position: static;
+        max-height: none;
+        border-right: none;
+        border-bottom: 1px solid var(--border);
+      }
+    }
+    .sidebar {
+      border-right: 1px solid var(--border);
+      padding: 1.25rem 1rem 1.5rem;
+      position: sticky;
+      top: 0;
+      max-height: 100vh;
+      overflow-y: auto;
+      background: rgba(255, 255, 255, 0.96);
+      backdrop-filter: blur(12px);
+    }
+    @media (prefers-color-scheme: dark) {
+      .sidebar {
+        background: rgba(17, 24, 39, 0.97);
+      }
+    }
+    .sidebar h1 {
+      font-size: 1.1rem;
+      margin: 0 0 0.25rem;
+    }
+    .sidebar .subtitle {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-bottom: 0.75rem;
+    }
+    .sidebar .version {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+    .toc-title {
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin: 0.75rem 0 0.5rem;
+    }
+    .toc {
+      font-size: 0.85rem;
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+    .toc li {
+      margin: 0.1rem 0;
+    }
+    .toc a {
+      color: var(--fg);
+      text-decoration: none;
+      padding: 0.12rem 0.2rem;
+      border-radius: 4px;
+      display: block;
+    }
+    .toc a:hover {
+      background: rgba(31, 122, 224, 0.08);
+      color: var(--accent);
+    }
+    .toc .toc-l2 {
+      padding-left: 0.75rem;
+    }
+    .toc .toc-l3 {
+      padding-left: 1.5rem;
+      font-size: 0.8em;
+    }
+    .content {
+      padding: 1.5rem 1.75rem 3rem;
+      max-width: 980px;
+      margin: 0 auto;
+    }
+    .content h1 {
+      font-size: 1.7rem;
+      margin: 0 0 0.5rem;
+    }
+    .content h2 {
+      font-size: 1.25rem;
+      margin-top: 2rem;
+      margin-bottom: 0.6rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+    }
+    .content h3 {
+      font-size: 1.05rem;
+      margin-top: 1.4rem;
+      margin-bottom: 0.4rem;
+    }
+    .content h4 {
+      font-size: 0.98rem;
+      margin-top: 1rem;
+      margin-bottom: 0.3rem;
+    }
+    p {
+      margin: 0.4rem 0 0.6rem;
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+      background: var(--code-bg);
+      border-radius: 4px;
+      padding: 0.09em 0.25em;
+      font-size: 0.9em;
+      border: 1px solid var(--code-border);
+    }
+    pre {
+      background: var(--code-bg);
+      border-radius: 6px;
+      padding: 0.75rem 0.9rem;
+      overflow: auto;
+      border: 1px solid var(--code-border);
+      font-size: 0.9em;
+      margin: 0.6rem 0 0.9rem;
+    }
+    pre code {
+      padding: 0;
+      border: none;
+      background: none;
+    }
+    ul, ol {
+      padding-left: 1.2rem;
+      margin: 0.2rem 0 0.6rem;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 1.8rem 0 1.4rem;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.06rem 0.4rem;
+      border-radius: 999px;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border: 1px solid rgba(31, 122, 224, 0.5);
+      color: var(--accent);
+      margin-left: 0.35rem;
+      vertical-align: middle;
+    }
+    .endpoint {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+        "Liberation Mono", "Courier New", monospace;
+      font-size: 0.88em;
+      background: var(--code-bg);
+      border-radius: 4px;
+      padding: 0.16rem 0.25rem;
+      border: 1px solid var(--code-border);
+      white-space: nowrap;
+    }
+    .method {
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      padding: 0.08rem 0.35rem;
+      border-radius: 999px;
+      margin-right: 0.25rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .method-get {
+      background: rgba(16, 185, 129, 0.1);
+      color: #059669;
+      border: 1px solid rgba(16, 185, 129, 0.5);
+    }
+    .method-post {
+      background: rgba(59, 130, 246, 0.1);
+      color: #2563eb;
+      border: 1px solid rgba(59, 130, 246, 0.5);
+    }
+    .method-put {
+      background: rgba(234, 179, 8, 0.08);
+      color: #b45309;
+      border: 1px solid rgba(234, 179, 8, 0.5);
+    }
+    .method-patch {
+      background: rgba(249, 115, 22, 0.08);
+      color: #ea580c;
+      border: 1px solid rgba(249, 115, 22, 0.5);
+    }
+    .method-delete {
+      background: rgba(248, 113, 113, 0.1);
+      color: #dc2626;
+      border: 1px solid rgba(248, 113, 113, 0.5);
+    }
+    .http-block {
+      font-size: 0.92em;
+      margin: 0.15rem 0 0.35rem;
+      color: var(--muted);
+    }
+    .small-muted {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <aside class="sidebar">
+      <h1>LERS SERVER API</h1>
+      <div class="subtitle">Документация REST API</div>
+      <div class="version">Версия документа: v1.1.0</div>
+
+      <div class="toc-title">Разделы</div>
+      <ul class="toc">
+        <li><a href="#overview">Обзор</a></li>
+        <li><a href="#auth">Аутентификация</a></li>
+        <li><a href="#env">Окружения и переменные</a></li>
+        <li><a href="#structure">Структура API</a></li>
+        <li><a href="#nodes">Объекты учета</a></li>
+        <li><a href="#measurepoints">Точки учета</a></li>
+        <li><a href="#incidents">Инциденты (НС)</a></li>
+        <li><a href="#equipment">Оборудование</a></li>
+        <li><a href="#territories">Территории и погода</a></li>
+        <li><a href="#serverinfo">Информация о сервере</a></li>
+        <li><a href="#calendar">Календарь событий</a></li>
+        <li><a href="#remote">Удалённое управление</a></li>
+        <li><a href="#errors">Статусы ответов и ошибки</a></li>
+        <li><a href="#monitoring">Рекомендации по мониторингу</a></li>
+        <li><a href="#changelog">Changelog</a></li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <h1 id="overview">LERS SERVER API — Документация</h1>
+      <p class="small-muted">
+        На этой странице представлена HTML‑версия документа
+        <code>API_DOCS.md</code>, подготовленная для размещения на сайте или внутреннем портале.
+      </p>
+
+      <h2>Обзор</h2>
+      <p>
+        LERS SERVER API предоставляет HTTP‑интерфейс для работы с системой учета ресурсов:
+      </p>
+      <ul>
+        <li>Авторизация и управление сессией</li>
+        <li>Работа с объектами учета (дома, узлы и пр.)</li>
+        <li>Работа с точками учета (приборы учета)</li>
+        <li>Работа с оборудованием</li>
+        <li>Управление инцидентами (НС)</li>
+        <li>Получение служебной информации о сервере</li>
+        <li>Работа с территориями и погодными данными</li>
+        <li>Календарь событий</li>
+      </ul>
+
+      <p>Базовый URL:</p>
+      <pre><code>{{baseUrl}}/api/v1/...</code></pre>
+      <p>
+        Рекомендуется использовать отдельные окружения для <strong>dev</strong> /
+        <strong>stage</strong> / <strong>prod</strong> (см. раздел «Окружения»).
+      </p>
+
+      <hr />
+
+      <h2 id="auth">Аутентификация</h2>
+
+      <h3>Общие принципы</h3>
+      <p>Большинство эндпоинтов требуют аутентификации по токену доступа.</p>
+      <ol>
+        <li>Выполнить логин: <code class="endpoint">POST /api/v1/Login</code></li>
+        <li>В ответе получить токен доступа и (опционально) время его истечения.</li>
+        <li>
+          Сохранять токен и передавать в заголовке:
+          <pre><code>Authorization: Bearer &lt;token&gt;</code></pre>
+        </li>
+        <li>
+          Для проверки корректности авторизации: 
+          <code class="endpoint">GET /api/v1/Login/Current</code>
+        </li>
+      </ol>
+
+      <h3>
+        <span class="method method-post">POST</span>
+        <span class="endpoint">/api/v1/Login</span>
+      </h3>
+      <div class="http-block">Аутентификация пользователя по логину и паролю.</div>
+
+      <h4>Тело запроса (пример)</h4>
+      <pre><code class="language-json">{
+  "login": "demo",
+  "password": "secret"
+}</code></pre>
+
+      <h4>Ответ 200 (пример)</h4>
+      <pre><code class="language-json">{
+  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9...",
+  "expiresAt": "2025-01-01T00:00:00Z",
+  "user": {
+    "id": 123,
+    "login": "demo",
+    "fullName": "Иван Иванов",
+    "roles": ["Admin"]
+  }
+}</code></pre>
+
+      <h4>Ошибки</h4>
+      <ul>
+        <li><code>401 Unauthorized</code> — неверный логин или пароль.</li>
+        <li><code>400 Bad Request</code> — некорректный формат тела запроса.</li>
+      </ul>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Login/Current</span>
+      </h3>
+      <div class="http-block">Информация о текущем аутентифицированном пользователе.</div>
+
+      <h4>Заголовки</h4>
+      <pre><code>Authorization: Bearer &lt;token&gt;</code></pre>
+
+      <h4>Ответ 200 (пример)</h4>
+      <pre><code class="language-json">{
+  "id": 123,
+  "login": "demo",
+  "fullName": "Иван Иванов",
+  "roles": ["Admin"],
+  "email": "user@example.com"
+}</code></pre>
+
+      <h4>Ошибки</h4>
+      <ul>
+        <li><code>401 Unauthorized</code> — токен отсутствует или недействителен.</li>
+      </ul>
+
+      <hr />
+
+      <h2 id="env">Окружения и переменные</h2>
+
+      <p>Рекомендуется использовать три основных окружения:</p>
+      <ul>
+        <li><strong>Dev</strong> — среда разработки</li>
+        <li><strong>Stage</strong> — стейджинг (тестовый стенд)</li>
+        <li><strong>Prod</strong> — боевая среда</li>
+      </ul>
+
+      <pre><code>Dev:   baseUrl = https://dev-lers.example.com
+Stage: baseUrl = https://stage-lers.example.com
+Prod:  baseUrl = https://api-lers.example.com</code></pre>
+
+      <p>Общие переменные во всех окружениях:</p>
+      <ul>
+        <li><code>baseUrl</code> — базовый URL сервера.</li>
+        <li><code>login</code> — логин пользователя.</li>
+        <li><code>password</code> — пароль пользователя.</li>
+        <li><code>auth_token</code> — токен авторизации (из <code>/api/v1/Login</code>).</li>
+        <li><code>token_expiration</code> — время истечения токена.</li>
+      </ul>
+
+      <p>Часто используемые переменные:</p>
+      <ul>
+        <li><code>start</code> — начало периода (например, <code>2024-01-01T00:00:00Z</code>).</li>
+        <li><code>end</code> — конец периода (например, <code>2024-01-31T23:59:59Z</code>).</li>
+      </ul>
+
+      <hr />
+
+      <h2 id="structure">Структура API</h2>
+      <p>Высокоуровневые разделы:</p>
+      <ul>
+        <li>Авторизация: <code>/api/v1/Login</code>, <code>/api/v1/Login/Current</code></li>
+        <li>Объекты учета: <code>/api/v1/Core/Nodes</code>, <code>/api/v1/Core/NodeGroups</code>, <code>/api/v1/Core/NodeJobs</code></li>
+        <li>Точки учета: <code>/api/v1/Core/MeasurePoints</code>, <code>/api/v1/Data/MeasurePoints/...</code></li>
+        <li>Оборудование: <code>/api/v1/Core/Equipment/...</code></li>
+        <li>Инциденты (НС): <code>/api/v1/Incidents/...</code></li>
+        <li>Информация о сервере: <code>/api/v1/ServerInfo...</code></li>
+        <li>Территории и погода: <code>/api/v1/Core/Territories</code>, <code>/api/v1/Data/Territories/...</code></li>
+        <li>Календарь событий: <code>/api/v1/Analysis/EventCalendar/...</code></li>
+        <li>Удалённое управление: <code>/api/v1/Plugins/Web/...</code></li>
+      </ul>
+
+      <hr />
+
+      <h2 id="nodes">Объекты учета</h2>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Core/Nodes</span>
+      </h3>
+      <div class="http-block">Список объектов учета (зданий/узлов), доступных пользователю.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">[
+  {
+    "id": 95,
+    "name": "Дом 10, корпус 2",
+    "address": "г. Город, ул. Примерная, д.10, к.2",
+    "groupId": 1,
+    "groupName": "Центр",
+    "isActive": true
+  }
+]</code></pre>
+
+      <h3>
+        <span class="method method-patch">PATCH</span>
+        <span class="endpoint">/api/v1/Core/Nodes/{id}</span>
+      </h3>
+      <div class="http-block">Частичное обновление свойств объекта учета.</div>
+      <p><strong>Параметры:</strong> <code>id</code> — идентификатор объекта учета.</p>
+
+      <h4>Тело запроса (пример)</h4>
+      <pre><code class="language-json">{
+  "name": "Дом 10, корп. 2 (обновлено)"
+}</code></pre>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">{
+  "id": 95,
+  "name": "Дом 10, корп. 2 (обновлено)",
+  "address": "г. Город, ул. Примерная, д.10, к.2",
+  "groupId": 1,
+  "isActive": true
+}</code></pre>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Core/Nodes/{id}/MeasurePoints</span>
+      </h3>
+      <div class="http-block">Список точек учета, связанных с указанным объектом учета.</div>
+      <p><strong>Параметры:</strong> <code>id</code> — идентификатор объекта учета (пример: <code>95</code>).</p>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Core/NodeGroups</span>
+      </h3>
+      <div class="http-block">Список групп объектов учета, доступных пользователю.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">[
+  {
+    "id": 1,
+    "name": "Центр",
+    "description": "Центральный район"
+  }
+]</code></pre>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Core/NodeJobs</span>
+      </h3>
+      <div class="http-block">Список работ/заданий по объектам учета.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">[
+  {
+    "id": 1001,
+    "nodeId": 95,
+    "type": "Maintenance",
+    "status": "Planned",
+    "scheduledAt": "2024-02-01T08:00:00Z"
+  }
+]</code></pre>
+
+      <hr />
+
+      <h2 id="measurepoints">Точки учета</h2>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Core/MeasurePoints</span>
+      </h3>
+      <div class="http-block">Список всех точек учета.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">[
+  {
+    "id": 1070,
+    "nodeId": 95,
+    "name": "Квартирный теплосчетчик",
+    "type": "Heat",
+    "serialNumber": "1234567890",
+    "isActive": true
+  }
+]</code></pre>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Core/MeasurePoints/{id}</span>
+      </h3>
+      <div class="http-block">Информация о точке учета по идентификатору.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">{
+  "id": 1070,
+  "nodeId": 95,
+  "name": "Квартирный теплосчетчик",
+  "type": "Heat",
+  "serialNumber": "1234567890",
+  "isActive": true
+}</code></pre>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Data/MeasurePoints/Consumption/Last</span>
+      </h3>
+      <div class="http-block">Последнее потребление по всем доступным точкам учета.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">[
+  {
+    "measurePointId": 1070,
+    "timestamp": "2024-02-01T00:00:00Z",
+    "consumption": 13.45,
+    "unit": "GJ"
+  }
+]</code></pre>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Data/MeasurePoints/{id}/Consumption/Last</span>
+      </h3>
+      <div class="http-block">Последнее потребление по конкретной точке учета.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">{
+  "measurePointId": 1070,
+  "timestamp": "2024-02-01T00:00:00Z",
+  "consumption": 13.45,
+  "unit": "GJ"
+}</code></pre>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Data/MeasurePoints/{id}/Consumption/{start}/{end}</span>
+      </h3>
+      <div class="http-block">Потребление по точке учета за период.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">{
+  "measurePointId": 1093,
+  "period": {
+    "start": "2024-01-01T00:00:00Z",
+    "end": "2024-01-31T23:59:59Z"
+  },
+  "values": [
+    {
+      "timestamp": "2024-01-01T00:00:00Z",
+      "consumption": 10.1,
+      "unit": "GJ"
+    },
+    {
+      "timestamp": "2024-01-02T00:00:00Z",
+      "consumption": 11.3,
+      "unit": "GJ"
+    }
+  ]
+}</code></pre>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Data/MeasurePoints/Totals/Last</span>
+      </h3>
+      <div class="http-block">Последние интеграторы по всем точкам учета.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">[
+  {
+    "measurePointId": 1093,
+    "timestamp": "2024-02-01T00:00:00Z",
+    "total": 3456.78,
+    "unit": "GJ"
+  }
+]</code></pre>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Data/MeasurePoints/{id}/Totals/{start}/{end}</span>
+      </h3>
+      <div class="http-block">Интеграторы по точке учета за период.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">{
+  "measurePointId": 1093,
+  "period": {
+    "start": "2024-01-01T00:00:00Z",
+    "end": "2024-01-31T23:59:59Z"
+  },
+  "values": [
+    {
+      "timestamp": "2024-01-01T00:00:00Z",
+      "total": 3400.0,
+      "unit": "GJ"
+    },
+    {
+      "timestamp": "2024-01-31T23:59:59Z",
+      "total": 3456.78,
+      "unit": "GJ"
+    }
+  ]
+}</code></pre>
+
+      <h3>
+        <span class="method method-post">POST</span>
+        <span class="endpoint">/api/v1/Poll/MeasurePoints/{id}/Currents</span>
+      </h3>
+      <div class="http-block">Инициирует опрос текущих данных по точке учета.</div>
+
+      <h4>Тело запроса (пример)</h4>
+      <pre><code class="language-json">{
+  "priority": "Normal"
+}</code></pre>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">{
+  "measurePointId": 1093,
+  "status": "Queued"
+}</code></pre>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Core/MeasurePoints/{id}/Diag</span>
+      </h3>
+      <div class="http-block">Диагностическая информация по точке учета.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">{
+  "measurePointId": 1091,
+  "lastCommunication": "2024-02-01T09:00:00Z",
+  "signalQuality": "Good",
+  "batteryStatus": "Normal"
+}</code></pre>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Data/MeasurePoints/{id}/DeviceErrors/{start}/{end}</span>
+      </h3>
+      <div class="http-block">Архив ошибок устройства по точке учета за период.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">[
+  {
+    "timestamp": "2024-01-10T10:00:00Z",
+    "code": "COMM_ERROR",
+    "description": "Потеря связи"
+  }
+]</code></pre>
+
+      <hr />
+
+      <h2 id="incidents">Инциденты (НС)</h2>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Incidents/Active/MeasurePoint/{id}</span>
+      </h3>
+      <div class="http-block">Список активных инцидентов по точке учета.</div>
+
+      <h3>
+        <span class="method method-post">POST</span>
+        <span class="endpoint">/api/v1/Incidents</span>
+      </h3>
+      <div class="http-block">Создание нового инцидента.</div>
+
+      <h4>Тело запроса (пример)</h4>
+      <pre><code class="language-json">{
+  "measurePointId": 1093,
+  "type": "CommunicationError",
+  "description": "Потеря связи с устройством",
+  "severity": "High"
+}</code></pre>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">{
+  "id": 175091,
+  "measurePointId": 1093,
+  "type": "CommunicationError",
+  "status": "Open",
+  "createdAt": "2024-02-01T10:15:00Z",
+  "description": "Потеря связи с устройством",
+  "severity": "High"
+}</code></pre>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Incidents/{id}</span>
+      </h3>
+      <div class="http-block">Параметры НС и журнал по идентификатору.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">{
+  "id": 175091,
+  "measurePointId": 1093,
+  "type": "CommunicationError",
+  "status": "Open",
+  "createdAt": "2024-02-01T10:15:00Z",
+  "description": "Потеря связи с устройством",
+  "journal": [
+    {
+      "timestamp": "2024-02-01T10:15:00Z",
+      "message": "Инцидент создан"
+    },
+    {
+      "timestamp": "2024-02-01T11:00:00Z",
+      "message": "Отправлено уведомление оператору"
+    }
+  ]
+}</code></pre>
+
+      <h3>
+        <span class="method method-put">PUT</span>
+        <span class="endpoint">/api/v1/Incidents/{id}/IsClosed</span>
+      </h3>
+      <div class="http-block">Закрытие инцидента.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">{
+  "id": 175004,
+  "status": "Closed",
+  "closedAt": "2024-02-01T12:00:00Z"
+}</code></pre>
+
+      <h3>
+        <span class="method method-delete">DELETE</span>
+        <span class="endpoint">/api/v1/Incidents/{id}</span>
+      </h3>
+      <div class="http-block">Удаление инцидента.</div>
+
+      <hr />
+
+      <h2 id="equipment">Оборудование</h2>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Core/Equipment</span>
+      </h3>
+      <div class="http-block">Список оборудования.</div>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Core/Equipment/{id}</span>
+      </h3>
+      <div class="http-block">Информация об оборудовании по идентификатору.</div>
+
+      <h3>
+        <span class="method method-patch">PATCH</span>
+        <span class="endpoint">/api/v1/Core/Equipment/{id}</span>
+      </h3>
+      <div class="http-block">Частичное обновление параметров устройства.</div>
+
+      <h4>Тело запроса (пример)</h4>
+      <pre><code class="language-json">{
+  "parameterName": "value"
+}</code></pre>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Core/Equipment/{id}/ConfigDb/Latest</span>
+      </h3>
+      <div class="http-block">Получить последнюю базу настроек оборудования.</div>
+
+      <hr />
+
+      <h2 id="territories">Территории и погода</h2>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Core/Territories</span>
+      </h3>
+      <div class="http-block">Список всех территорий.</div>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Core/Territories/{id}</span>
+      </h3>
+      <div class="http-block">Информация о территории по ID.</div>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Data/Territories/{id}/Weather</span>
+      </h3>
+      <div class="http-block">Среднесуточные температуры по территории.</div>
+
+      <h3>
+        <span class="method method-put">PUT</span>
+        <span class="endpoint">/api/v1/Data/Territories/{id}/Weather</span>
+      </h3>
+      <div class="http-block">Сохранение среднесуточных температур по территории.</div>
+
+      <h4>Тело запроса (пример)</h4>
+      <pre><code class="language-json">[
+  {
+    "date": "2024-01-01",
+    "temperature": -5.3
+  },
+  {
+    "date": "2024-01-02",
+    "temperature": -3.8
+  }
+]</code></pre>
+
+      <hr />
+
+      <h2 id="serverinfo">Информация о сервере</h2>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/ServerInfo</span>
+      </h3>
+      <div class="http-block">Основная информация о версии сервера.</div>
+
+      <h4>Пример ответа</h4>
+      <pre><code class="language-json">{
+  "version": "1.2.3",
+  "build": "20240201-1234",
+  "apiVersion": "v1"
+}</code></pre>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/ServerInfo/Extra</span>
+      </h3>
+      <div class="http-block">Дополнительная информация для вошедшего пользователя.</div>
+
+      <hr />
+
+      <h2 id="calendar">Календарь событий</h2>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Analysis/EventCalendar/iCalendar/{start}/{end}</span>
+      </h3>
+      <div class="http-block">
+        Календарь событий (аварии, работы, опросы и др.) за период.
+      </div>
+
+      <hr />
+
+      <h2 id="remote">Удалённое управление</h2>
+
+      <h3>
+        <span class="method method-get">GET</span>
+        <span class="endpoint">/api/v1/Plugins/Web/MeasurePoint/{id}/device</span>
+      </h3>
+      <div class="http-block">
+        Информация, необходимая для удалённого управления устройством, связанным с точкой учета.
+      </div>
+
+      <hr />
+
+      <h2 id="errors">Статусы ответов и ошибки</h2>
+
+      <p>Типичные коды:</p>
+      <ul>
+        <li><code>200 OK</code> — успешный запрос.</li>
+        <li><code>201 Created</code> — ресурс создан (например, при создании инцидента).</li>
+        <li><code>204 No Content</code> — успешный запрос без тела ответа.</li>
+        <li><code>400 Bad Request</code> — некорректные входные данные.</li>
+        <li><code>401 Unauthorized</code> — неавторизован (нет токена/токен недействителен).</li>
+        <li><code>403 Forbidden</code> — недостаточно прав.</li>
+        <li><code>404 Not Found</code> — ресурс не найден.</li>
+        <li><code>500 Internal Server Error</code> — внутренняя ошибка сервера.</li>
+      </ul>
+
+      <hr />
+
+      <h2 id="monitoring">Рекомендации по мониторингу</h2>
+
+      <p>Рекомендуется регулярно проверять:</p>
+      <ul>
+        <li><code>/api/v1/Login</code> — работоспособность авторизации.</li>
+        <li><code>/api/v1/Login/Current</code> — корректность токенов.</li>
+        <li><code>/api/v1/Core/Nodes</code> и <code>/api/v1/Core/MeasurePoints</code> — основные справочники.</li>
+        <li><code>/api/v1/ServerInfo</code> — доступность сервера и версию.</li>
+      </ul>
+
+      <p>Критерии:</p>
+      <ul>
+        <li>Код ответа не 5xx.</li>
+        <li>Время ответа &lt; 1500 мс (или ваш SLA).</li>
+      </ul>
+
+      <hr />
+
+      <h2 id="changelog">Changelog</h2>
+
+      <h3>v1.1.0</h3>
+      <ul>
+        <li>Добавлены примеры ответов для основных запросов.</li>
+        <li>Описана структура окружений (dev/stage/prod).</li>
+        <li>Уточнено назначение ключевых эндпоинтов.</li>
+        <li>Добавлены рекомендации по мониторингу.</li>
+      </ul>
+
+      <h3>v1.0.0</h3>
+      <ul>
+        <li>Базовый набор эндпоинтов LERS SERVER API.</li>
+      </ul>
+    </main>
+  </div>
+</body>
+</html>
