@@ -1,6 +1,6 @@
 # 🚩 Сверка данных API и DB (ЛЭРС)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/LICENSE)
 
 Автоматизированный инструмент для проверки согласованности данных между REST API и базой данных MS SQL Server системы **«ЛЭРС УЧЁТ»**.  
 Проверяет соответствие трёх ключевых сущностей:
