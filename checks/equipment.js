@@ -2,7 +2,7 @@
 const sql = require("mssql");
 
 async function checkEquipment(apiToken, baseUrl, log = console.log) {
-  log("\u2713 Запрос /Core/Equipment...");
+  log("✔️ Запрос /Core/Equipment...");
 
   // Получение данных из API
   const res = await fetch(`${baseUrl}/api/v1/Core/Equipment`, {
@@ -17,16 +17,16 @@ async function checkEquipment(apiToken, baseUrl, log = console.log) {
   if (apiData && Array.isArray(apiData.list)) {
     equipmentList = apiData.list;
   } else {
-    log('\u2757 Поле "list" отсутствует или не является массивом. Используем пустой список.');
+    log('❗ Поле "list" отсутствует или не является массивом. Используем пустой список.');
   }
 
   // === 2. Получение данных из БД или mock ===
   let dbData;
   if (process.env.MOCK_DB === 'true') {
-    log('\u2713 MOCK: данные БД из fixtures');
+    log('✔️ MOCK: данные БД из fixtures');
     dbData = require('../fixtures/db-equipment.json');
   } else {
-    log("\u2713 Запрос к dbo.Equipment...");
+    log("✔️ Запрос к dbo.Equipment...");
     const dbRes = await sql.query(`
       SELECT
         Id AS id,
@@ -38,7 +38,7 @@ async function checkEquipment(apiToken, baseUrl, log = console.log) {
     dbData = dbRes.recordset;
   }
 
-  log(`\u2713 Сравнение: API (${equipmentList.length}) vs DB (${dbData.length})`);
+  log(`✔️ Сравнение: API (${equipmentList.length}) vs DB (${dbData.length})`);
 
   // Нормализация
   const normalize = (item) => {
@@ -65,12 +65,12 @@ async function checkEquipment(apiToken, baseUrl, log = console.log) {
     const db = dbMap.get(id);
 
     if (!api) {
-      log(`\u2757 ID=${id} есть в БД, но отсутствует в API`);
+      log(`❗ ID=${id} есть в БД, но отсутствует в API`);
       hasMismatch = true;
       continue;
     }
     if (!db) {
-      log(`\u2757 ID=${id} есть в API, но отсутствует в БД`);
+      log(`❗ ID=${id} есть в API, но отсутствует в БД`);
       hasMismatch = true;
       continue;
     }
@@ -80,16 +80,16 @@ async function checkEquipment(apiToken, baseUrl, log = console.log) {
       const a = api[f] == null ? null : String(api[f]);
       const d = db[f] == null ? null : String(db[f]);
       if (a !== d) {
-        log(`\u2717 ID=${id}: поле "${f}" не совпадает. API="${a}", DB="${d}"`);
+        log(`✔️ ID=${id}: поле "${f}" не совпадает. API="${a}", DB="${d}"`);
         hasMismatch = true;
       }
     }
   }
 
   if (!hasMismatch) {
-    log("\u2713 Всё оборудование совпадает!");
+    log("✔️ Всё оборудование совпадает!");
   } else {
-    log("\u2757 Найдены расхождения в оборудовании.");
+    log("❗ Найдены расхождения в оборудовании.");
     process.exitCode = 1;
   }
 }
