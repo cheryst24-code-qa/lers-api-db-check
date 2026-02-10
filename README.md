@@ -1,5 +1,7 @@
 # 🚩 Сверка данных API и DB (ЛЭРС)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+
 Автоматизированный инструмент для проверки согласованности данных между REST API и базой данных MS SQL Server системы **«ЛЭРС УЧЁТ»**.  
 Проверяет соответствие трёх ключевых сущностей:
 
@@ -28,21 +30,23 @@
 ## 📂 Структура проекта
 
     lers-api-db-check/
-    ├── index.js # точка входа
-    ├── lib/db.js # подключение к БД
-    ├── checks/ # модули проверок
+    ├── .github/workflows
+    │ └── api-db-check.yml
+    ├── index.js                # точка входа
+    ├── lib/db.js               # подключение к БД
+    ├── checks/                 # модули проверок
     │ ├── nodes.js
     │ ├── measure-points.js
     │ └── equipment.js
-    ├── fixtures/ # фикстуры для mock-режима
+    ├── fixtures/               # фикстуры для mock-режима
     │ ├── db-nodes.json
     │ ├── db-measure-points.json
     │ └── db-equipment.json
-    ├── reports/ # генерируемые HTML-отчёты
-    ├── docs/ # скриншоты
+    ├── reports/                # генерируемые HTML-отчёты
+    ├── docs/                   # скриншоты
     │ ├── success-run.png
     │ └── report.png
-    ├── .env.example # шаблон переменных
+    ├── .env.example            # шаблон переменных
     ├── .gitignore
     └── README.md
 
@@ -54,10 +58,11 @@
 - Доступ к ЛЭРС API
 - Доступ к MS SQL Server (БД `LERS`) — **только для локального режима**
 
- 💡 Установите dotenvx глобально:  
+ 💡 Установите dotenvx глобально, **если это требование вашей команды или вы хотите использовать расширенные функции безопасности**::  
  ```bash
     npm install -g @dotenvx/dotenvx
  ```
+| Для базового использования достаточно стандартного пакета `dotenv` (он уже включён в зависимости проекта).
 
 ## 📥 Установка
 
