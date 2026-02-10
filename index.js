@@ -27,7 +27,7 @@ function log(message) {
 async function main() {
   try {
     // 1. Авторизация
-    log("\u2713 Авторизация в API...");
+    log("☑️ Авторизация в API...");
     const loginRes = await fetch(`${process.env.API_BASE_URL}/api/v1/Login`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -41,7 +41,7 @@ async function main() {
       throw new Error(`Ошибка входа: ${loginRes.status}`);
     }
     const { token } = await loginRes.json();
-    log("\u2713 Токен получен.");
+    log("☑️ Токен получен.");
 
     // 2. Подключение к БД (только если не mock)
     if (process.env.MOCK_DB !== "true") {
@@ -53,16 +53,16 @@ async function main() {
     await checkMeasurePoints(token, process.env.API_BASE_URL, log);
     await checkEquipment(token, process.env.API_BASE_URL, log);
 
-    log("\u2705 Все проверки завершены.");
+    log("✔️ Все проверки завершены.");
   } catch (err) {
-    log(`\u274C Необработанная ошибка: ${err.message}`);
+    log(`❗ Необработанная ошибка: ${err.message}`);
   }
 
   // 4. Генерация HTML-отчёта
   const now = new Date().toLocaleString("ru-RU");
   const status = hasErrors
-    ? "\u274C Обнаружены расхождения"
-    : "\u2705 Все проверки пройдены";
+    ? "❌ Обнаружены расхождения"
+    : "✔️ Все проверки пройдены";
   const statusClass = hasErrors ? "error" : "success";
 
   let html = `
@@ -70,7 +70,7 @@ async function main() {
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <title>LERS API <-> DB Consistency Report</title>
+  <title>Отчет о сверке API и БД системы ЛЭРС</title>
   <style>
     body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; margin: 40px; background: #f9f9f9; }
     .container { max-width: 900px; margin: 0 auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
@@ -85,14 +85,14 @@ async function main() {
 </head>
 <body>
   <div class="container">
-    <h1>LERS API <-> DB Consistency Check</h1>
+    <h1>Отчет о сверке API и БД системы ЛЭРС</h1>
     <div class="status"><strong>Статус:</strong> <span class="${statusClass}">${status}</span></div>
     <p><strong>Дата и время:</strong> ${now}</p>
     <div class="log">`;
 
   for (const { message } of reportLogs) {
     const msg = message || "";
-    const isError = msg.includes("\u2715") || msg.includes("\u2718");
+    const isError = msg.includes("❗") || msg.includes("❌");
     const cls = isError ? "log-error" : "";
     html += `<div class="log-line ${cls}">${msg}</div>\n`;
   }
@@ -110,7 +110,7 @@ async function main() {
   }
   const reportPath = path.join(reportDir, "api-db-check-report.html");
   fs.writeFileSync(reportPath, html);
-  console.log(`\u2713 HTML-отчёт сохранён: ${reportPath}`);
+  console.log(`☑️ HTML-отчёт сохранён: ${reportPath}`);
 
   // Открываем отчёт ТОЛЬКО при локальном запуске (не в CI)
   if (!process.env.CI) {
@@ -121,6 +121,6 @@ async function main() {
 
 // === ЗАПУСК СКРИПТА ===
 main().catch((err) => {
-  console.error("\u2713 Критическая ошибка:", err.message);
+  console.error("❗ Критическая ошибка:", err.message);
   process.exit(1);
 });
