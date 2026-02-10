@@ -2,7 +2,7 @@
 const sql = require('mssql');
 
 async function checkMeasurePoints(apiToken, baseUrl, log = console.log) {
-  log('✔️ Запрос /Core/MeasurePoints...');
+  log('✔️  Запрос /Core/MeasurePoints...');
 
   // === 1. Получение данных из API ===
   const res = await fetch(`${baseUrl}/api/v1/Core/MeasurePoints`, {
@@ -21,10 +21,10 @@ async function checkMeasurePoints(apiToken, baseUrl, log = console.log) {
   // === 2. Получение данных из БД или mock ===
   let dbData;
   if (process.env.MOCK_DB === 'true') {
-    log('✔️ Режим: МОСК для БД');
+    log('✔️  Режим: МОСК для БД');
     dbData = require('../fixtures/db-measure-points.json');
   } else {
-    log('✔️ Запрос к dbo.MeasurePoint...');
+    log('✔️  Запрос к dbo.MeasurePoint...');
     const pool = await sql.connect(); // используем глобальное подключение
     const result = await pool.request().query(`
       SELECT
@@ -38,7 +38,7 @@ async function checkMeasurePoints(apiToken, baseUrl, log = console.log) {
   }
   
   // === 3. Нормализация и сравнение ===
-  log(`✔️ Сравнение: API (${apiData.length}) vs DB (${dbData.length})`);
+  log(`✔️  Сравнение: API (${apiData.length}) vs DB (${dbData.length})`);
 
   const normalize = (item) => ({
     id: item.id,
@@ -79,7 +79,7 @@ async function checkMeasurePoints(apiToken, baseUrl, log = console.log) {
 
       if (apiClean !== dbClean) {
         log(
-          `✔️ ID=${id}: поле "${field}" не совпадает.\n` +
+          `✔️  ID=${id}: поле "${field}" не совпадает.\n` +
           `   API: "${apiClean}"\n` +
           `   DB:  "${dbClean}"`
         );
@@ -89,7 +89,7 @@ async function checkMeasurePoints(apiToken, baseUrl, log = console.log) {
   }
 
   if (!hasMismatch) {
-    log('✔️ Все точки учёта совпадают!');
+    log('✔️  Все точки учёта совпадают!');
   } else {
     log('❗ Найдены расхождения в точках учёта.');
     process.exitCode = 1;

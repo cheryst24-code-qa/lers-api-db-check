@@ -27,7 +27,7 @@ function log(message) {
 async function main() {
   try {
     // 1. Авторизация
-    log("☑️ Авторизация в API...");
+    log("☑️  Авторизация в API...");
     const loginRes = await fetch(`${process.env.API_BASE_URL}/api/v1/Login`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -41,7 +41,7 @@ async function main() {
       throw new Error(`Ошибка входа: ${loginRes.status}`);
     }
     const { token } = await loginRes.json();
-    log("☑️ Токен получен.");
+    log("☑️  Токен получен.");
 
     // 2. Подключение к БД (только если не mock)
     if (process.env.MOCK_DB !== "true") {
@@ -53,16 +53,16 @@ async function main() {
     await checkMeasurePoints(token, process.env.API_BASE_URL, log);
     await checkEquipment(token, process.env.API_BASE_URL, log);
 
-    log("✔️ Все проверки завершены.");
+    log("✔️  Все проверки завершены.");
   } catch (err) {
-    log(`❗ Необработанная ошибка: ${err.message}`);
+    log(`❗  Необработанная ошибка: ${err.message}`);
   }
 
   // 4. Генерация HTML-отчёта
   const now = new Date().toLocaleString("ru-RU");
   const status = hasErrors
-    ? "❌ Обнаружены расхождения"
-    : "✔️ Все проверки пройдены";
+    ? "❌  Обнаружены расхождения"
+    : "✔️  Все проверки пройдены";
   const statusClass = hasErrors ? "error" : "success";
 
   let html = `
@@ -91,7 +91,7 @@ async function main() {
     <div class="log">`;
 
   for (const { message } of reportLogs) {
-    const msg = message || "";
+    const msg = message || " ";
     const isError = msg.includes("❗") || msg.includes("❌");
     const cls = isError ? "log-error" : "";
     html += `<div class="log-line ${cls}">${msg}</div>\n`;
@@ -110,7 +110,7 @@ async function main() {
   }
   const reportPath = path.join(reportDir, "api-db-check-report.html");
   fs.writeFileSync(reportPath, html);
-  console.log(`☑️ HTML-отчёт сохранён: ${reportPath}`);
+  console.log(`☑️  HTML-отчёт сохранён: ${reportPath}`);
 
   // Открываем отчёт ТОЛЬКО при локальном запуске (не в CI)
   if (!process.env.CI) {
@@ -121,6 +121,6 @@ async function main() {
 
 // === ЗАПУСК СКРИПТА ===
 main().catch((err) => {
-  console.error("❗ Критическая ошибка:", err.message);
+  console.error("❗  Критическая ошибка:", err.message);
   process.exit(1);
 });

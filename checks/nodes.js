@@ -3,7 +3,7 @@ const sql = require('mssql');
 
 async function checkNodes(apiToken, baseUrl, log = console.log) {
   // === 1. Получение Nodes из API ===
-  log('✔️ Запрос /Core/Nodes...');
+  log('✔️  Запрос /Core/Nodes...');
   const nodesRes = await fetch(`${baseUrl}/api/v1/Core/Nodes`, {
     headers: { Authorization: `Bearer ${apiToken}` },
   });
@@ -19,10 +19,10 @@ async function checkNodes(apiToken, baseUrl, log = console.log) {
   // === 2. Получение данных из БД или mock ===
   let dbData;
   if (process.env.MOCK_DB === 'true') {
-    log('✔️ Режим: МОСК для БД');
+    log('✔️  Режим: МОСК для БД');
     dbData = require('../fixtures/db-nodes.json');
   } else {
-    log('✔️ Запрос к db.Node...');
+    log('✔️  Запрос к db.Node...');
     const pool = await sql.connect();
     const result = await pool.request().query(`
       SELECT ID, Title AS Name, Comment, Address,TerritoryId
@@ -32,7 +32,7 @@ async function checkNodes(apiToken, baseUrl, log = console.log) {
   }
 
   // === 3. Сравнение ===
-  log(`✔️ Сравнение: API (${apiNodes.length}) vs DB (${dbData.length})`);
+  log(`✔️  Сравнение: API (${apiNodes.length}) vs DB (${dbData.length})`);
 
   const normalizedApiNodes = apiNodes.map(node => ({
     id: node.id,
@@ -75,7 +75,7 @@ async function checkNodes(apiToken, baseUrl, log = console.log) {
       const d = db[f.dbField] == null ? null : String(db[f.dbField]);
       if (a !== d) {
         log(
-          `✔️ ID=${id}: поле "${f.key}" не совпадает.\n` +
+          `✔️  ID=${id}: поле "${f.key}" не совпадает.\n` +
           `   API: "${a}"\n` +
           `   DB:  "${d}"`
         );
@@ -85,7 +85,7 @@ async function checkNodes(apiToken, baseUrl, log = console.log) {
   }
 
   if (!hasMismatch) {
-    log('✔️ Все данные объектов учета совпадают!');
+    log('✔️  Все данные объектов учета совпадают!');
   } else {
     log('❗ Найдены расхождения данных в объектах учета.');
     process.exitCode = 1;
