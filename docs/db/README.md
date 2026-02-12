@@ -18,7 +18,7 @@ WHERE Account_Login = 'test';
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db1.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db1.png) |
 
 
 ### Верификация иерархии энергообъектов в системе LERS:
@@ -35,7 +35,7 @@ FROM dbo.Node;
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db3_1.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db3_1.png) |
 
 ```sql
 SELECT 
@@ -47,14 +47,14 @@ WHERE MeasurePoint_NodeID = 95;
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db3_2.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db3_2.png) |
 
 ```sql
 SELECT Id, Title FROM dbo.NodeGroup
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db3_3.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db3_3.png) |
 
 #### 2. ТОЧКИ УЧЁТА (MeasurePoint)
 ```sql
@@ -67,14 +67,14 @@ FROM dbo.MeasurePoint;
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db4_1.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db4_1.png) |
 
 ```sql
 SELECT * FROM dbo.MeasurePoint WHERE MeasurePoint_ID = 1070;
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db4_2.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db4_2.png) |
 
 
 ### Сезонная верификация диагностических параметров в LERS:
@@ -105,7 +105,7 @@ ORDER BY ai.season, ai.Title;
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db4_3.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db4_3.png) |
 
 
 ### Верификация часовых интеграторов (тоталов) в системе учёта LERS:
@@ -150,7 +150,7 @@ ORDER BY DateTime;
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db5.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db5.png) |
 
 
 ### Верификация оборудования и его конфигурации в системе учёта LERS:
@@ -165,14 +165,14 @@ SELECT Id, SerialNumber, Comment, EquipmentModelId FROM dbo.Equipment;
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db6_1.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db6_1.png) |
 
 ```sql
 SELECT * FROM dbo.Equipment WHERE Id = 341;
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db6_2.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db6_2.png) |
 
 ```sql
 SELECT TOP 1 * FROM dbo.DeviceConfig
@@ -181,7 +181,7 @@ ORDER BY DateTime DESC;
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db6_3.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db6_3.png) |
 
 
 ### Верификация территориальных настроек и часовых поясов в LERS:
@@ -196,14 +196,14 @@ SELECT Id, Name, TimeZoneOffset FROM dbo.Territory;
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db8_1.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db8_1.png) |
 
 ```sql
 SELECT * FROM dbo.Territory WHERE Id = 1;
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db8_2.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db8_2.png) |
 
 
 ### Исследование доменной модели LERS через справочники:
@@ -220,7 +220,7 @@ SELECT Id, Title FROM dbo.IncidentType;
 ```
 | Пример             |
 | -------------------|
-| ![Report](./docs/db/db9_1.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db9_1.png) |
 
 ```sql
 SELECT Id, Title FROM dbo.EquipmentModel;            
