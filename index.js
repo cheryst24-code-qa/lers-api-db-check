@@ -1,13 +1,18 @@
 // index.js
 require("dotenv").config();
+
+// Отладка
+console.log(' API_LOGIN:', process.env.API_LOGIN);
+console.log(' API_PASSWORD (первые 4 символа):', process.env.API_PASSWORD?.substring(0, 4) || 'null');
+
 const fs = require("fs");
 const path = require("path");
 const fetch = globalThis.fetch || require("node-fetch");
 
-const { initDbConnection } = require("./lib/db");
-const { checkNodes } = require("./checks/nodes");
-const { checkMeasurePoints } = require("./checks/measure-points");
-const { checkEquipment } = require("./checks/equipment");
+const { initDbConnection } = require("./api-db-checks/lib/db");
+const { checkNodes } = require("./api-db-checks/test-data/nodes");
+const { checkMeasurePoints } = require("./api-db-checks/test-data/measure-points");
+const { checkEquipment } = require("./api-db-checks/test-data/equipment");
 
 // === Логирование и сбор отчёта ===
 let reportLogs = [];
@@ -18,7 +23,7 @@ function log(message) {
   const line = `[${timestamp}] ${message}`;
   console.log(line);
   reportLogs.push({ message: message || "" });
-  if (message && (message.includes("\u2715") || message.includes("\u274C"))) {
+  if (message && (message.includes("❎") || message.includes("❌"))) {
     hasErrors = true;
   }
 }

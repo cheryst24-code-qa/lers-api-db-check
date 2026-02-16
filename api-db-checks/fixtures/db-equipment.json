@@ -2186,7 +2186,7 @@
   {
     "id": 486,
     "serialNumber": "353656100782004",
-    "comment": "Резерв 5",
+    "comment": "Баумана 11\r\n",
     "equipmentModelId": 447
   },
   {
@@ -3968,7 +3968,7 @@
   {
     "id": 793,
     "serialNumber": "353656106201868",
-    "comment": "Баумана 11+",
+    "comment": "Баумана 11\r\nснято",
     "equipmentModelId": 447
   },
   {
@@ -4088,7 +4088,7 @@
   {
     "id": 813,
     "serialNumber": "353656106166798",
-    "comment": "Баумана 11",
+    "comment": "Тухачевского 15A",
     "equipmentModelId": 447
   },
   {

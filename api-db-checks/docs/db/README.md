@@ -19,7 +19,7 @@ WHERE Account_Login = 'test';
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db1.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db1.png) |
 
 ---
 
@@ -38,7 +38,7 @@ FROM dbo.Node;
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db3_1.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db3_1.png) |
 
 ```sql
 SELECT 
@@ -50,14 +50,14 @@ WHERE MeasurePoint_NodeID = 95;
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db3_2.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db3_2.png) |
 
 ```sql
 SELECT Id, Title FROM dbo.NodeGroup
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db3_3.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db3_3.png) |
 
 ---
 
@@ -72,14 +72,14 @@ FROM dbo.MeasurePoint;
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db4_1.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db4_1.png) |
 
 ```sql
 SELECT * FROM dbo.MeasurePoint WHERE MeasurePoint_ID = 1070;
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db4_2.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db4_2.png) |
 
 ---
 
@@ -112,7 +112,7 @@ ORDER BY ai.season, ai.Title;
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db4_3.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db4_3.png) |
 
 ---
 
@@ -159,7 +159,7 @@ ORDER BY DateTime;
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db5.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db5.png) |
 
 ---
 
@@ -176,14 +176,14 @@ SELECT Id, SerialNumber, Comment, EquipmentModelId FROM dbo.Equipment;
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db6_1.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db6_1.png) |
 
 ```sql
 SELECT * FROM dbo.Equipment WHERE Id = 341;
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db6_2.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db6_2.png) |
 
 ```sql
 SELECT TOP 1 * FROM dbo.DeviceConfig
@@ -192,7 +192,7 @@ ORDER BY DateTime DESC;
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db6_3.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db6_3.png) |
 
 ---
 
@@ -209,14 +209,14 @@ SELECT Id, Name, TimeZoneOffset FROM dbo.Territory;
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db8_1.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db8_1.png) |
 
 ```sql
 SELECT * FROM dbo.Territory WHERE Id = 1;
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db8_2.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db8_2.png) |
 
 ---
 
@@ -235,7 +235,7 @@ SELECT Id, Title FROM dbo.IncidentType;
 ```
 | Пример             |
 | -------------------|
-| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/docs/db/db9_1.png) |
+| ![Report](https://github.com/cheryst24-code-qa/lers-api-db-check/blob/main/api-db-checks/docs/db/db9_1.png) |
 
 ```sql
 SELECT Id, Title FROM dbo.EquipmentModel;            
