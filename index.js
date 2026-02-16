@@ -2,8 +2,8 @@
 require("dotenv").config();
 
 // Отладка
-console.log(' API_LOGIN:', process.env.API_LOGIN);
-console.log(' API_PASSWORD (первые 4 символа):', process.env.API_PASSWORD?.substring(0, 4) || 'null');
+// console.log(' API_LOGIN:', process.env.API_LOGIN);
+// console.log(' API_PASSWORD (первые 4 символа):', process.env.API_PASSWORD?.substring(0, 4) || 'null');
 
 const fs = require("fs");
 const path = require("path");
